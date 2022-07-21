@@ -66,7 +66,7 @@ master_doc = 'index'
 language = "en"
 # language = 'zh_CN'
 
-locale_dirs = ['locales']  # path is example but recommended.
+locale_dirs = ['../locale']  # path is example but recommended.
 gettext_compact = False  # optional.
 
 #
