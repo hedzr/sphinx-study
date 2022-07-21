@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/tab.md:2
+msgid "选项卡插件 sphinx_tabs.tabs"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:4
+msgid "**更新时间: 2021-12-21, 11:46:56  | sphinx-tabs 版本：{{sphinx_tabs}}**"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:6
+msgid ""
+"构建 HTML 时在 Sphinx 文档中创建选项卡式内容。本文章参考 [Sphinx Tabs 官方文档](https://sphinx-"
+"tabs.readthedocs.io/en/latest/) 。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:8
+msgid ""
+"需要注意的是， sphinx_tabs.tabs 插件相较于 MyST ，更适合在 `.rst` 文件中被解析，所以如果需要在 MyST 或 "
+"MyST-NB 解析下的 `.md` 文件下使用选项卡，那么建议使用另一个功能更加强大的插件 [Sphinx Design](./design"
+"/design-index.md) 。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:11
+msgid ""
+"sphinx-tabs 3.2.0 requires docutils~=0.16.0；但是由于考虑到将来可能要使用 {ref}`myst-"
+"rst-include-md` 的功能，而此功能需要依赖 docutils >=0.17，所以此插件版本可能会被笔者作为过时版本。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:14
+msgid "安装"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:21
+msgid "要在 Sphinx 中启用扩展，请将以下内容添加到您的 conf.py："
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:29
+msgid "Read The Docs 来构建文档时的注意事项"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:31
+msgid ""
+"如果您使用 Read The Docs 来构建文档，则必须添加扩展作为要求。请将 sphinx-tabs 添加到项目根目录或 docs 文件夹中的"
+" requirements.txt。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:34
+msgid "在 reST 语法使用"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:52 ../../source/sptools/extend/tab.md:78
+msgid "运行结果如下："
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tabs-base.rst:3
+msgid "Apples"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tabs-base.rst:5
+msgid "Apples are green, or sometimes red."
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tabs-base.rst:7
+msgid "Pears"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tabs-base.rst:9
+msgid "Pears are green."
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tabs-base.rst:11
+msgid "Oranges"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tabs-base.rst:13
+msgid "Oranges are orange."
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:58
+msgid "更多指令"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:60
+msgid ""
+"sphinx-tabs.tabs 插件还有 group-tab 指令 和 [code-tab](./example/tab/tab-"
+"code.rst) 指令与 tabs 指令嵌套使用的语法，在这里就不加以详述，若有学习意向可 [前往 sphinx-tabs "
+"官方文档查看](https://sphinx-tabs.readthedocs.io/en/latest/) 。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:63
+msgid "在 rst 文件中使用 Sphinx Design 插件实现选项卡功能"
+msgstr ""
+
+#: ../../source/sptools/extend/example/design/tab.rst
+#: ../../source/sptools/extend/tab.md:111
+msgid "Label1"
+msgstr ""
+
+#: ../../source/sptools/extend/example/design/tab.rst:5
+#: ../../source/sptools/extend/tab.md:111
+msgid "Content 1"
+msgstr ""
+
+#: ../../source/sptools/extend/example/design/tab.rst
+#: ../../source/sptools/extend/tab.md:116
+msgid "Label2"
+msgstr ""
+
+#: ../../source/sptools/extend/example/design/tab.rst:9
+#: ../../source/sptools/extend/tab.md:116
+msgid "Content 2"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:84
+msgid "建议使用另一个功能更加强大的插件 [Sphinx Design](./design/design-index.md) 。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:88
+msgid "使用 MyST Parser 的 Markdown 语法使用"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:106
+msgid "运行结果如下：(Markdown形式的语法参考RST形式的,需要注意的是这个指令和内容之间必须要有空行)"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:123
+msgid "实际应用"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:125
+msgid ""
+"由于 sphinx tabs 插件的在使用过程中使用到指令的多层嵌套，将其转换为 MyST 语法格式会变得难以阅读，所以采用引用 `.rst` "
+"文件的形式使用在 `.md` 文件中。"
+msgstr ""
+
+#: ../../source/sptools/extend/tab.md:135
+msgid "[代码实际运行界面](./example/tab/tab-code.rst) 可点击源码界面的下载按钮查看实现源码, 引用下的代码运行效果如下"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:3
+msgid "MyST Markdown"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:17
+msgid "RestructuredText"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:30
+msgid "渲染结果"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:32
+msgid "What could be inside this warning?"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:35
+msgid "A whale of a joke!"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:39
+msgid "(sorry)"
+msgstr ""
+

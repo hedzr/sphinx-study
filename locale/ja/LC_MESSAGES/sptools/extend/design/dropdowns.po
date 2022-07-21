@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/dropdowns.md:1
+msgid "可下拉选项卡"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:3
+msgid "下拉框可以用来切换内容，通常是非必要的，并且只有当用户点击标题面板时才会显示。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:5
+msgid "下拉菜单可以有一个标题，作为指令参数，并且打开选项可以用来初始化下拉菜单的打开状态。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:8
+#: ../../source/sptools/extend/design/dropdowns.md:12
+#: ../../source/sptools/extend/design/dropdowns.md:18
+#: ../../source/sptools/extend/design/dropdowns.md:61
+#: ../../source/sptools/extend/design/dropdowns.md:72
+#: ../../source/sptools/extend/design/dropdowns.md:78
+msgid "Dropdown content"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Dropdown title"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Open dropdown"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:36
+msgid "下拉框打开时的动画"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:38
+msgid "使用 `:animate: fade-in` 或 `:animate: fade-in-slide-down` 选项使隐藏的内容得以呈现。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Dropdown `fade-in`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:43
+#: ../../source/sptools/extend/design/dropdowns.md:49
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis arcu"
+" vitae odio gravida congue. Donec porttitor ac risus et condimentum. "
+"Phasellus bibendum ac risus a sollicitudin. Proin pulvinar risus ac "
+"mauris aliquet fermentum et varius nisi. Etiam sit amet metus ac ipsum "
+"placerat congue semper non diam. Nunc luctus tincidunt ipsum id eleifend."
+" Ut sed faucibus ipsum. Aliquam maximus dictum posuere. Nunc vitae libero"
+" nec enim tempus euismod. Aliquam sed lectus ac nisl sollicitudin "
+"ultricies id at neque. Aliquam fringilla odio vitae lorem ornare, sit "
+"amet scelerisque orci fringilla. Nam sed arcu dignissim, ultrices quam "
+"sit amet, commodo ipsum. Etiam quis nunc at ligula tincidunt eleifend."
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Dropdown `fade-in-slide-down`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:52
+msgid "在其他组件下的下拉框"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Parent dropdown title"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Child dropdown title"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Dropdown Column 1"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md
+msgid "Dropdown Column 2"
+msgstr ""
+
+#: ../../source/sptools/extend/design/dropdowns.md:83
+msgid "dropdowns 可选项"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:4
+msgid "open"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:2
+msgid "Open the dropdown by default."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:4
+msgid "默认打开下拉菜单。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:9
+msgid "color"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:7
+msgid ""
+"Set the color of the dropdown header (background and font). One of the "
+"semantic color names: ``primary``, ``secondary``, ``success``, "
+"``danger``, ``warning``, ``info``, ``light``, ``dark``, ``muted``."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:9
+msgid "设置下拉标题的颜色(背景和字体)。其中一个语义色彩名称:主要的，次要的，成功的，危险的，警告的，信息的，光明的，黑暗的，柔和的。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:14
+msgid "icon"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:12
+msgid "Set an octicon icon to prefix the dropdown header."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:14
+msgid "设置一个 octicon icon 作为下拉标题的前缀。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:19
+msgid "animate"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:17
+msgid "Animate the dropdown opening (``fade-in`` or ``fade-in-slide-down``)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:19
+msgid "动画下拉菜单( fade-in 淡入或淡入- fade-in-slide-down 滑动)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:24
+msgid "margin"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:22
+msgid ""
+"Outer margin of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:24
+msgid "网格的外缘。 一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5、auto。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:29
+msgid "name"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:27
+msgid "Set a reference-able name for the dropdown container."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:29
+msgid "为下拉容器设置一个可引用的名称。（ref）"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:34
+msgid "class-container"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:32
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:34
+msgid "容器的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:39
+msgid "class-title"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:37
+msgid "Additional CSS classes for the title element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:39
+msgid "title元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:44
+msgid "class-body"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:42
+msgid "Additional CSS classes for the body element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:44
+msgid "body元素的其他CSS类。"
+msgstr ""
+

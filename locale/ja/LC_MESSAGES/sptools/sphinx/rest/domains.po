@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/domains.rst:3
+msgid "域"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:5
+msgid ""
+"最初，sphinx是为一个项目而设计的，即Python语言的文档。不久之后，它作为一个文档工具被提供给了每个人，但是Python模块的文档仍然是深入内置的——最基本的指令，比如"
+" function "
+"，是为Python对象设计的。由于Sphinx已经变得有点受欢迎，所以在使用它时有很多不同的兴趣：C/C++项目、JavaScript、甚至RealStReWorkType标记（如本文中的文档）。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:7
+msgid ""
+"域是标记（RestructuredText）的集合 directive 和 role ）描述并链接到 object "
+"属于一起的，例如编程语言的元素。域中的指令名和角色名的名称如下 domain:name ，例如 py:function . "
+"域还可以提供自定义索引（如python模块索引）。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:11
+msgid "简单来说，域是用来编写接口（API）文档的。 [#]_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:14
+msgid "例如："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:18
+msgid "Describes a Python function."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst
+msgid "Arguments"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:22
+msgid "An URI to the location of the resource."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:23
+msgid "Gets called with the object."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:24
+msgid ""
+"Gets called in case the request fails. And a lot of other text so we need"
+" multiple lines."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst
+msgid "Throws"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:27
+msgid "For whatever reason in that case."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst
+msgid "Returns"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:28
+msgid "Something."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/domains.rst:54
+msgid ""
+"2021年9月28日：待以后需要使用相关知识时在进行学习笔记。官网：https://www.osgeo.cn/sphinx/usage/restructuredtext/domains.html"
+"#role-math-numref"
+msgstr ""
+

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/rst-to-myst.md:1
+msgid "RST-to-MyST"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:3
+msgid ""
+"一种转换 [ReStructuredText](https://docutils.sourceforge.io/) 为 [MyST "
+"Markdown](https://myst-parser.readthedocs.io/) 的工具。"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:6
+msgid ""
+"更多相关使用的信息可查看 [RST-to-MyST的官方文档](https://rst-to-"
+"myst.readthedocs.io/en/latest/index.html)。"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:9
+msgid "**目前，转换指令时指令的参数或选项会出现中文乱码的问题。**"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:11
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:13
+msgid "从PyPI安装:"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:19
+msgid "建议在隔离的环境中安装。 其中一种方法是使用 [pipx](https://pypa.github.io/pipx/):"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:31
+msgid "然后运行整个项目的基本转换:"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:37
+msgid "为了更好的控制，你可以通过CLI选项传递配置，或者通过YAML配置文件:"
+msgstr ""
+
+#: ../../source/sptools/extend/rst-to-myst.md:43
+msgid "`config.yaml`:"
+msgstr ""
+

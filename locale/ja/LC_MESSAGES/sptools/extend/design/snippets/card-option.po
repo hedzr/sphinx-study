@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:4
+msgid "width"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:2
+msgid "The width that the card should take up (in %): auto, 25%, 50%, 75%, 100%."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:4
+msgid "卡占用的宽度(以%计):自动，25%，50%，75%，100%。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:9
+msgid "margin"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:7
+msgid ""
+"Outer margin of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:9
+msgid "网格的外缘。一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5、auto。这个选项的值不同于之前的网格的对应四种屏幕的值，这个是对应使用此属性的卡片的周围（上、下、左、右）的距离值。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:14
+msgid "text-align"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:12
+msgid "Default horizontal text alignment: left, right, center or justify"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:14
+msgid "默认水平文本对齐方式:左、右、中或右对齐"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:19
+msgid "img-background"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:17
+#: ../../source/sptools/extend/design/snippets/card-option.rst:27
+msgid ""
+"A URI (relative file path or URL) to an image to be placed below the "
+"content."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:19
+msgid "作为内容背景的图像的URI(相对文件路径或URL)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:24
+msgid "img-top"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:22
+msgid ""
+"A URI (relative file path or URL) to an image to be placed above the "
+"content."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:24
+msgid "将放置在内容上方的图像的URI(相对文件路径或URL)。header之上"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:29
+msgid "img-bottom"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:29
+msgid "将放置在内容下方的图像的URI(相对文件路径或URL)。footer之下"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:34
+msgid "link"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:32
+msgid "Turn the entire card into a clickable link to an external/internal target."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:34
+msgid "把整个卡片变成一个可点击的链接到一个外部/内部目标。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:39
+msgid "link-type"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:37
+msgid "Type of link: url (default), ref, doc, any."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:39
+msgid "链接类型:url(默认)，ref, doc, any。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:44
+msgid "shadow"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:42
+msgid "The size of the shadow below the card: none, sm (default), md, lg."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:44
+msgid "卡片下方的阴影大小:none, sm(默认)，md, lg。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:49
+msgid "class-card"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:47
+msgid "Additional CSS classes for the card container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:49
+msgid "卡片容器元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:54
+msgid "class-header"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:52
+msgid "Additional CSS classes for the header element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:54
+msgid "用于header元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:59
+msgid "class-body"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:57
+msgid "Additional CSS classes for the body element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:59
+msgid "用于body元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:64
+msgid "class-title"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:62
+msgid "Additional CSS classes for the title element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:64
+msgid "用于title元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:68
+msgid "class-footer"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:67
+msgid "Additional CSS classes for the footer element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/card-option.rst:69
+msgid "用于footer元素的其他CSS类。"
+msgstr ""
+

@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:4
+msgid "open"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:2
+msgid "Open the dropdown by default."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:4
+msgid "默认打开下拉菜单。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:9
+msgid "color"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:7
+msgid ""
+"Set the color of the dropdown header (background and font). One of the "
+"semantic color names: ``primary``, ``secondary``, ``success``, "
+"``danger``, ``warning``, ``info``, ``light``, ``dark``, ``muted``."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:9
+msgid "设置下拉标题的颜色(背景和字体)。其中一个语义色彩名称:主要的，次要的，成功的，危险的，警告的，信息的，光明的，黑暗的，柔和的。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:14
+msgid "icon"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:12
+msgid "Set an octicon icon to prefix the dropdown header."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:14
+msgid "设置一个 octicon icon 作为下拉标题的前缀。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:19
+msgid "animate"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:17
+msgid "Animate the dropdown opening (``fade-in`` or ``fade-in-slide-down``)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:19
+msgid "动画下拉菜单( fade-in 淡入或淡入- fade-in-slide-down 滑动)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:24
+msgid "margin"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:22
+msgid ""
+"Outer margin of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:24
+msgid "网格的外缘。 一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5、auto。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:29
+msgid "name"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:27
+msgid "Set a reference-able name for the dropdown container."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:29
+msgid "为下拉容器设置一个可引用的名称。（ref）"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:34
+msgid "class-container"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:32
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:34
+msgid "容器的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:39
+msgid "class-title"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:37
+msgid "Additional CSS classes for the title element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:39
+msgid "title元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:43
+msgid "class-body"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:42
+msgid "Additional CSS classes for the body element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/dropdowns-option.rst:44
+msgid "body元素的其他CSS类。"
+msgstr ""
+

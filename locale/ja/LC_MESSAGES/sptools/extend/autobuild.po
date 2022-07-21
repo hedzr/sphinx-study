@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/autobuild.md:3
+msgid "sphinx-autobuild"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:5
+msgid "**更新时间: 2021-12-21, 11:46:56  | sphinx_autobuild 版本：{{sphinx_autobuild}}**"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:7
+msgid ""
+"在浏览器中实时重新加载有关更改的 Sphinx 文档。关于此项目的更多信息或建议前往 [executablebooks/sphinx-"
+"autobuild](https://github.com/executablebooks/sphinx-autobuild#readme) "
+"查看。"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:9
+msgid "安装"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:11
+msgid "`sphinx-autobuild` 在 **PyPI** 上可用。它可以使用 pip 安装："
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:17
+msgid "用法"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:19
+msgid "要构建经典的 Sphinx 文档集，请运行："
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:25
+msgid ""
+"这将在 `http://127.0.0.1:8000` 启动服务器并开始监视 `source/` 目录中的更改。当在 `source/` "
+"中检测到更改时，将重建文档并自动重新加载任何打开的浏览器窗口，而结果则输出在 `source/_build/html` 中。"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:27
+msgid "使用 KeyboardInterrupt( `ctrl+ c`) 停止服务器。"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:29
+msgid "推荐用法"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:34
+msgid "当然，可以将其写入批处理文件中，这样就可以直接执行："
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:36
+msgid ".sh 批处理"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:43
+msgid ".bat 批处理"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:51
+msgid "命令行选项"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:53
+msgid ""
+"`sphinx-autobuild` 接受与 `sphinx-build`（这些在每次构建时传递给 `sphinx-build` "
+"）相同的参数。它还有一些额外的选项，可以通过运行看到 `sphinx-autobuild --help`"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:85
+msgid "自动打开浏览器"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:87
+msgid "sphinx-autobuild 可以在默认浏览器中打开生成文档的主页。通过 `--open-browser` 将启用此行为。"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:89
+msgid "自动选择端口"
+msgstr ""
+
+#: ../../source/sptools/extend/autobuild.md:91
+msgid "sphinx-autobuild 要求操作系统提供一个空闲端口号并将其用于其服务器。通过 `--port=0` 将启用此行为。"
+msgstr ""
+

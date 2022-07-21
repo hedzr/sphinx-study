@@ -1,0 +1,366 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/MyST/syntax-guide.md:3
+msgid "MyST 语法指南"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:5
+msgid ""
+"指令语法是用三重反引号和花括号定义的。它实际上是一个用大括号括住语言的代码块，以及代替语言名称的指令名称。它类似于 RMarkdown "
+"定义“可运行单元格”的方式。这是基本结构："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:11
+msgid "MyST 写法 1"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:12
+msgid "MyST 写法 2"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:13
+#: ../../source/sptools/MyST/syntax-guide.md:251
+#: ../../source/sptools/MyST/syntax-guide.md:280
+msgid "reStructuredText"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:43
+msgid "MyST Markdown 指令的两种写法"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:45
+msgid "使用 YAML frontmatter"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:46
+msgid ""
+"指令第一行之后的 YAML 前言块将被解析为指令的选项。这需要用 `---` 线包围。两者之间的所有内容都将由 YAML "
+"解析并作为关键字参数传递给您的指令。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:47
+msgid "如果您的指令有很多选项，或者有一个非常长的值（例如，跨越多行），那么您还可以将选项包装在行中 `---` 并将它们写为 YAML。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:64
+msgid "This is my multi-line caption. It is *pretty nifty* ;-)"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:77
+msgid "带有 `:` 字符的简写选项"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:78
+msgid ""
+"这种写法最接近 reST 语法，无论读者是否在学习 MyST Markdown 之前有关学习 reST "
+"标记语言，笔者个人都推荐使用这种语法，因为这样可以使得我们能够快速切换两种语言的指令的写法。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:100
+msgid "MyST Markdown 与 reST 标记语言的切换"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:101
+msgid ""
+"由本文章开篇第一部分的 MyST Markdown 写法2 与 reST 比较可知，reST 标记语言的原生指令甚至是 "
+"[扩展指令](./../extend/ext-index.md) 都是可以和在 MyST Markdown 和 reST "
+"两个语言中相互切换使用的。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:106
+msgid "指令如何解析指令内容"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:108
+msgid ""
+"MyST 将指令内容解析为 Markdown。这意味着 MyST markdown 可以写在任何用 MyST markdown "
+"编写的指令的内容区域中。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:117
+msgid "运行渲染结果："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:119
+msgid "My markdown link"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:120
+msgid "Here is [markdown link syntax](https://jupyter.org)"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:126
+msgid "eval-rst 指令"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:128
+msgid "对于特殊情况，MySt 还提供 `eval-rst` 指令。这会将内容解析为 **ReStructuredText**："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:150
+msgid "Party time!"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:152
+msgid "A reference from inside: :ref:`rst-fun-fish`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:154
+msgid "A reference from outside: :ref:`syntax/guide/parsing`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:158
+msgid "当然，我们还可以通过 `eval-rst 指令` 实现 {ref}`myst-md-include-rst`。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:160
+msgid "嵌套指令"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:162
+msgid "您可以通过**确保与最外层指令对应的刻度线长于内部指令的刻度线**来嵌套指令。例如，在注释块中嵌套警告，如下所示："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:167
+msgid "MyST Markdown"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:168
+msgid "渲染结果"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:178
+msgid "The next info should be nested"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:180
+#: ../../source/sptools/MyST/syntax-guide.md:217
+msgid "Here's my warning"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:186
+msgid ""
+"只要保证最外层指令对应的刻度线长于内部指令的刻度线，那么指令可以一直嵌套（虽然没有必要），就已上方的语法和渲染结果的对比来说，笔者使用了六个 "
+"``` ` ``` 来包裹内容。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:188
+msgid ""
+"如果您想在 Markdown 中显示反引号，可以通过将它们嵌套在更长的反引号中来实现。Markdown "
+"会将最外面的反引号视为“原始”块的边缘，里面的所有内容都会显示出来。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:195
+msgid "可以缩进内部代码围栏，只要它们的缩进不超过 3 个空格就可以被渲染。否则，它们将被呈现为代码块："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:214
+msgid "The warning block will be properly-parsed"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:220
+msgid "But the next block will be parsed as raw text"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:228
+msgid "Markdown 友好指令"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:230
+msgid ""
+"想使用在标准 Markdown 编辑器中正确呈现的语法吗？请参阅 {ref}`扩展语法选项 <markdown-ext-syntax-"
+"colon>`。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:239
+msgid "This text is **standard** _Markdown_"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:242
+msgid "角色"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:244
+msgid "角色类似于指令——它们允许您定义任意的新功能，但它们是内嵌使用的。要定义内联角色，请使用以下形式："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:250
+#: ../../source/sptools/MyST/syntax-guide.md:279
+msgid "MyST"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:260
+msgid "例如，下面的代码:"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:266
+msgid "运行渲染得:"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:268
+msgid "Since Pythagoras, we know that {math}`a^2 + b^2 = c^2`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:270
+msgid "额外的 MyST Markdown 语法"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:272
+msgid "该表描述了rST和MyST的等价项:"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:278
+msgid "Type"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:281
+msgid "Math shortcuts"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:282
+msgid "`$x^2$`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:283
+msgid "N/A"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:284
+msgid "指令可选项"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:293
+#: ../../source/sptools/MyST/syntax-guide.md:347
+msgid "注释"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:294
+#, python-format
+msgid "`% comment`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:295
+msgid "`.. comment`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:296
+msgid "label 标签"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:297
+msgid "`(mytarget)=`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:298
+msgid "`.. _mytarget:`"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:303
+msgid "目标和交叉引用"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:305
+msgid "目标用于定义您可以在文档中的其他地方引用的自定义锚点。它们通常放在章节标题之前，以便您可以轻松地参考它们。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:307
+msgid "在 MyST Markdown 中，目标标头使用以下语法定义："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:313
+msgid ""
+"然后可以使用 [ref 内联角色引用](https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/roles.html#role-ref)它们："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:319
+msgid "默认情况下，引用将使用目标的文本（例如部分标题），但您也可以直接指定文本："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:325
+msgid ""
+"例如，请参阅此参考：{ref}`myst-syntax-guide-target`，这是返回此页面顶部的参考：{ref}`返回顶部 <myst-"
+"syntax-guide>`。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:327
+msgid "使用 Markdown 的链接语法"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:333
+msgid ""
+"如果您希望将目标的标题插入到您的文本中，您可以将 Markdown 链接的“文本”部分留空。例如，这个 markdown: "
+"`[](header.md)` 。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:341
+msgid "运行效果如下所示："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:343
+msgid "[](./optional-syntax.md)"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:345
+msgid "[](myst-opational-syntax)"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:349
+msgid "您可以通过将%字符放在行首来添加注释。这将防止该行被解析为输出文档。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:351
+#: ../../source/sptools/MyST/syntax-guide.md:364
+#: ../../source/sptools/MyST/syntax-guide.md:394
+msgid "例如，这段代码："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:357
+#: ../../source/sptools/MyST/syntax-guide.md:370
+#: ../../source/sptools/MyST/syntax-guide.md:400
+msgid "在下面，但它不会被解析到文档中。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:362
+msgid "MyST Markdown 依旧遵循原来 Markdown 语法，所以 Markdown 的注释语法对 MyST Markdown 起作用。"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:377
+msgid "由于注释是块级实体，它们将终止前一个块。实际上，这意味着以下几行将分成两段，从而在它们之间产生新的一行："
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:385
+msgid "a line"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:387
+msgid "another line"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:390
+msgid "块中断"
+msgstr ""
+
+#: ../../source/sptools/MyST/syntax-guide.md:392
+msgid ""
+"您可以通过放置+++在一行的开头来添加块中断。该构造的预期用例是映射到基于单元格的文档格式，如jupyter "
+"notebooks，以指示新的文本单元格。它不会出现在呈现的文本中，而是存储在内部文档结构中供开发人员使用。"
+msgstr ""
+

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/additional.md:1
+msgid "附加"
+msgstr ""
+
+#: ../../source/sptools/extend/design/additional.md:3
+msgid "文章的信息块"
+msgstr ""
+
+#: ../../source/sptools/extend/design/additional.md:5
+msgid "`article-info` 指令用于显示有关文章的信息块，通常位于文章标题的正下方（如下所示，带有非标准大纲）。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/additional.md:7
+msgid "hedzr"
+msgstr ""
+
+#: ../../source/sptools/extend/design/additional.md:7
+msgid ""
+"<svg version=\"1.1\" width=\"16.0px\" height=\"16.0px\" class=\"sd-"
+"octicon sd-octicon-calendar\" viewBox=\"0 0 16 16\" aria-"
+"hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M4.75 0a.75.75 0 "
+"01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 "
+"1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 "
+"1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-"
+"11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 "
+".138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-"
+"11z\"></path></svg>2022-01-29"
+msgstr ""
+
+#: ../../source/sptools/extend/design/additional.md:7
+msgid ""
+"<svg version=\"1.1\" width=\"16.0px\" height=\"16.0px\" class=\"sd-"
+"octicon sd-octicon-clock\" viewBox=\"0 0 16 16\" aria-"
+"hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M1.5 8a6.5 6.5 0 1113 0 "
+"6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 "
+"0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 "
+"7.742V4.75z\"></path></svg>5 min"
+msgstr ""
+
+#: ../../source/sptools/extend/design/additional.md:26
+msgid "可选项"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:4
+msgid "avatar"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:2
+msgid ""
+"A URI (relative file path or URL) to an image for use as the avatar (a "
+"user portrait, logo or branded graphic)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:4
+msgid "用于作为头像(用户肖像、标识或品牌图形)的图像的URI(相对文件路径或URL)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:9
+msgid "avatar-alt"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:7
+msgid "Alternative text for the avatar."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:9
+msgid "头像的替代文本。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:14
+msgid "avatar-link"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:12
+msgid "A URL to link to if the avatar icon is clicked."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:14
+msgid "如果单击头像图标，则要链接到的URL。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:19
+msgid "avatar-outline"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:17
+msgid "A semantic color to use for the outline of the avatar."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:19
+msgid "用于头像轮廓的语义颜色。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:24
+msgid "author"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:22
+msgid "Text to display in the author of of the article."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:24
+msgid "文本显示在文章的作者。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:29
+msgid "date"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:27
+msgid "Text to display in the date of the article."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:29
+msgid "文本显示在文章的日期。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:34
+msgid "read-time"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:32
+msgid "Text to indicate the time to read the article."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:34
+msgid "文本表示阅读文章的时间。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:39
+msgid "class-container"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:37
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:39
+msgid "容器元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:44
+msgid "class-avatar"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:42
+msgid "Additional CSS classes for the avatar element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:44
+msgid "头像的其他CSS类。"
+msgstr ""
+

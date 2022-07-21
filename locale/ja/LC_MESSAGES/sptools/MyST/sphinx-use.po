@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/MyST/sphinx-use.md:1
+msgid "MyST 与 Sphinx"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:3
+msgid ""
+"MyST 解析器与 Sphinx 扩展捆绑在一起，允许您完全在 MyST 中（或在 rST 和 MyST 的组合中）使用编写 Sphinx "
+"文档。以下部分介绍了 Sphinx 扩展的一些主要功能。这些部分描述了使用 Sphinx 编写 MyST 的一些常见场景和用例。"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:7
+msgid "将 rST 文件包含到 Markdown 文件中"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:9
+msgid "如本节所述，所有 MyST 指令都将其内容解析为 Markdown。因此，使用常规 `include` 指令，将文件内容解析为 Markdown："
+msgstr ""
+
+#: ../../source/sptools/MyST/example/include-md.md:2
+msgid "Hallo I'm from a Markdown file, [with a reference](myst-md-include-rst)."
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:19
+msgid "要包含 rST，我们必须首先将指令“包装”在 [eval-rst 指令](myst-syntax-guide-eval-rst)中："
+msgstr ""
+
+#: ../../source/sptools/MyST/example/include-rst.rst:1
+msgid "Hallo I'm from an rST file, :ref:`with a reference <myst-md-include-rst>`."
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:33
+msgid "将 Markdown 文件包含到 rST 文件中"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:35
+msgid "要在 ReStructuredText 文件中包含 MyST 文件，我们可以使用 `include` 指令并指定 `parser` 选项："
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:43
+msgid ""
+"该parser选项需要docutils>=0.17。但是此主题 sphinx-book-theme 0.1.7 requires "
+"docutils<0.17,>=0.15 ；而插件 sphinx-tabs 3.2.0 requires docutils~=0.16.0 。 "
+"虽然可以不使用插件 sphinx-tabs，但是主题sphinx-book-theme 0.1.7 依赖于小于 0.17 版本得 docutils"
+" ，所以该功能暂时无法使用。"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:47
+msgid "在 Jupyter Notebooks 中使用 MyST"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:49
+msgid ""
+"MyST-NB 工具提供了一个Sphinx扩展，**用于解析使用 MyST Markdown 写的 Jupyter "
+"Notebooks**。它包括在文档构建期间自动执行笔记本、存储笔记本单元输出以便将它们插入文档的其他地方等功能。有关更多信息，[请参阅MyST-"
+"NB文档](myst-nb)。"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:51
+msgid "自动为节标题创建目标"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:54
+msgid "查看 Sphinx 插件 [autosectionlabel](../extend/autosectionlabel.md) 的激活和使用即可。"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:57
+msgid "Sphinx 特定的页面前端"
+msgstr ""
+
+#: ../../source/sptools/MyST/sphinx-use.md:59
+msgid "一个经典的用例是指定“孤立”文档，这些文档未在任何目录树中指定。例如，在页面顶部插入以下语法将导致 Sphinx 将其视为孤立页面:"
+msgstr ""
+

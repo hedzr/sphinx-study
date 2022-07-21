@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/order.rst:3
+msgid "指令"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:5
+msgid ""
+"本章介绍 reStructuredText 的指令，可以 `点击前往指令的参考文档 <https://www.sphinx-"
+"doc.org/zh_CN/master/usage/restructuredtext/directives.html#code-"
+"examples>`_ 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:9
+msgid "需要注意的是，我们在使用指令时大多会遇到 指令和内容分开，而且还有指令的可选项的情况。根据语法，这些指令的内容和可选项都需要缩进 **3个空格**。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:11
+msgid ""
+"由于笔者使用 VsCode 编写笔记，然后发现通过分别设置 用户、工作区、文件夹的 ``settings.json`` 文件中的  "
+"``\"editor.tabSize\": 3`` 属性都没有很好的设置到 tab 的空格数。所以笔者索性通过插件 *EditorConfig "
+"for Visual Studio Code* 使用 ``.editorconfig`` 文件来格式化不同文件下的 tab 键。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:14
+msgid "epigraph 题词"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:18
+msgid ""
+"这个指令在 sphinx-book-theme 中能够正常显示。 更多查看 :ref:`sphinx book theme 特殊内容块 <sbt-"
+"special-blocks>` 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:21
+msgid "题词是一种适当的(合适的，恰当的或相关的)短题词，通常是引文或诗歌，在文件或章节的开头。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:25
+msgid "No matter where you go, there you are."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:32
+msgid "Buckaroo Banzai"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:31
+#: ../../source/sptools/sphinx/rest/order.rst:244
+msgid "代码 ::"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:39
+#: ../../source/sptools/sphinx/rest/order.rst:70
+#: ../../source/sptools/sphinx/rest/order.rst:140
+#: ../../source/sptools/sphinx/rest/order.rst:176
+#: ../../source/sptools/sphinx/rest/order.rst:259
+#: ../../source/sptools/sphinx/rest/order.rst:342
+#: ../../source/sptools/sphinx/rest/order.rst:401
+#: ../../source/sptools/sphinx/rest/order.rst:418
+msgid "|50|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:42
+msgid "hlist"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:44
+msgid "此指令必须包含项目符号列表。它将通过水平分布多个项目或减少项目之间的间距（取决于构建器）将其转换为一个更紧凑的列表。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:46
+msgid "对于支持水平分布的构建器，有一个用于指定列数的“columns”选项；它默认为2。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:51
+msgid "A list of"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:52
+msgid "short items"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:53
+msgid "that should be"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:54
+msgid "displayed"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:55
+msgid "horizontally"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:57
+#: ../../source/sptools/sphinx/rest/order.rst:96
+#: ../../source/sptools/sphinx/rest/order.rst:130
+#: ../../source/sptools/sphinx/rest/order.rst:192
+#: ../../source/sptools/sphinx/rest/order.rst:231
+#: ../../source/sptools/sphinx/rest/order.rst:242
+#: ../../source/sptools/sphinx/rest/order.rst:290
+#: ../../source/sptools/sphinx/rest/order.rst:315
+#: ../../source/sptools/sphinx/rest/order.rst:359
+#: ../../source/sptools/sphinx/rest/order.rst:388
+msgid "|15|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:73
+msgid "glossary"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:75
+msgid "词汇表，用来解释名词。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:78
+msgid "term 1 : A"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:79
+msgid "term 2 : B"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:81
+msgid "Definition of both terms."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:84
+msgid "environment"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:86
+msgid ""
+"A structure where information about all documents under the root is "
+"saved, and used for cross-referencing.  The environment is pickled after "
+"the parsing stage, so that successive runs only need to read and parse "
+"new and changed documents."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:90
+msgid "source directory"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:92
+msgid ""
+"The directory which, including its subdirectories, contains all source "
+"files for one Sphinx project."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:120
+msgid "topic / 主题 or 总论"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:122
+msgid "带有标题的段落。"
+msgstr ""
+
+msgid "Topic Title"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:126
+msgid ""
+"Subsequent indented lines comprise the body of the topic, and are "
+"interpreted as body elements."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:143
+msgid "目录"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:145
+msgid ""
+"由于REST没有连接多个文档或将文档拆分为多个输出文件的功能，因此Sphinx使用自定义指令在文档所组成的单个文件和目录之间添加关系。这个 "
+"toctree 指令是中心元素。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:149
+msgid "一个文件在另一个文件中的简单“包含”可以通过 |include| 指令。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:154
+msgid ""
+"文档标题 toctree "
+"将自动从引用文档的标题中读取。如果这不是您想要的，您可以使用类似的语法来指定一个显式的标题和目标来放置超链接（和sphinx的 cross-"
+"referencing syntax ）这看起来像："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:170
+msgid ""
+"更多关于目录的语法点击 `前往官网查看。 "
+"<https://www.osgeo.cn/sphinx/usage/restructuredtext/directives.html"
+"#table-of-contents>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:174
+msgid ""
+"目录选项中有两个重要的选项，分别为 caption 和 hidden 属性，caption 用作目录的主标题，而 hidden "
+"用来表示是否显示在页面中，这个属性对于构成左侧边栏的标题列表有用。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:179
+msgid "sidebar 边注栏"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:182
+msgid "侧边栏的可选选项只有 subtitle 子标题。"
+msgstr ""
+
+msgid "Optional Sidebar Title"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:188
+msgid ""
+"Subsequent indented lines comprise the body of the sidebar, and are "
+"interpreted as body elements."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:207
+msgid "image 与 figure"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:209
+msgid "|30|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:214
+msgid "image"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:216
+msgid "For example ::"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:225
+msgid ""
+"``align`` 对齐: \"top\", \"middle\", \"bottom\", \"left\", \"center\", or "
+"\"right\"。“left”、“center”和“right”值控制图像的水平对齐，允许图像浮动，并让文本围绕它流动。 "
+"*值“top”、“middle”和“bottom”控制图像的垂直对齐(相对于文本基线);它们只对内联图像(替换)有用。*"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:226
+msgid "``alt`` 替代文本，对图像的简短描述"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:227
+msgid ""
+"``height`` "
+"图片高；当“scale”选项也被指定时，它们将被合并。例如，一个200px的高度和50的比例相当于一个100px的高度没有比例。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:228
+msgid "``width`` 图片宽；当“scale”选项也被指定时，它们将被合并。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:229
+msgid "``scale`` 缩放，整数百分比(“%”符号是可选的)，默认是“100%”，即没有缩放。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:431
+msgid "hzw"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:238
+msgid ""
+"柚（学名：Citrus maxima (Burm) "
+"Merr.）是芸香科、柑橘属植物。乔木。嫩枝、叶背、花梗、花萼及子房均被柔毛，嫩叶通常暗紫红色，嫩枝扁且有棱。叶质颇厚，色浓绿，阔卵形或椭圆形，连冀叶长9-16厘米，宽4-8厘米。总状花序，有时兼有腋生单花；花蕾淡紫红色，稀乳白色；花萼不规则5-3浅裂；花瓣长1.5-2厘米；雄蕊25-35枚，有时部分雄蕊不育。果圆球形，扁圆形，梨形或阔圆锥状，果皮甚厚或薄，海绵质，油胞大，凸起，果心实但松软，瓢囊10-15或多至19瓣；种子多达200余粒，亦有无子的，形状不规则，通常近似长方形，单胚。花期4-5月，果期9-12月。"
+" "
+"原产东南亚，在中国已有3000多年栽培历史。浙江、江西、广东、广西、台湾、福建、湖南、湖北、四川、贵州、云南等省均有栽种。柚性喜温暖、湿润气候，不耐干旱。生长期最适温度23-29℃，能忍受-7℃低温。"
+" "
+"柚的果实表皮、花、叶还可提取优质芳香油，果皮中可提取优质果胶，果肉可以加工成果汁、果酒、柠檬酸、果酱及罐头等。果实综合利用后经济效益可望增长4倍，柚的综合利用还有很大的发掘潜力。果肉含维生素C较高。有消食、解酒毒功效。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:256
+msgid "``image`` 指令可以实现文字的填充。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:264
+msgid "figure"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:266
+msgid "带标题和可选图例的图像"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:268
+msgid "代码样例 ::"
+msgstr ""
+
+msgid "柚子"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:299
+msgid "柚（学名：Citrus maxima (Burm) Merr.）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:301
+msgid ""
+"The legend consists of all elements after the caption.  In this case, the"
+" legend consists of this paragraph and the following table:"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:306
+msgid "Symbol"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:306
+msgid "Meaning"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:308
+#: ../../source/sptools/sphinx/rest/order.rst:310
+#: ../../source/sptools/sphinx/rest/order.rst:312
+msgid "Campground"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:317
+msgid "实例代码 ::"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:345
+msgid "HTML细节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:348
+msgid "meta 指令"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:350
+msgid "生成HTML <meta> 标签。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:374
+msgid "尤金森林笔记"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:374
+msgid "An amusing story"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:374
+msgid "Une histoire amusante"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:374
+msgid "尤金森林"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:374
+msgid "text/html; charset=utf-8"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:361
+msgid "代码如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:372
+msgid "指令参数值对照HTML"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:404
+msgid "title 指令"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:406
+msgid ""
+"\"title\"指令将文档标题指定为元数据，它不会成为文档主体的一部分。 **它覆盖文档提供的文档标题和“title”配置设置。** "
+"例如，在HTML输出中，元数据文档标题出现在浏览器窗口的标题栏中。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:423
+msgid "替代指令 replace"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:425
+msgid "my |name| is |caution|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:450
+msgid "|hr15|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:458
+msgid "根据图片替换的语法，同理可得其他的语法，例如上方的短水平分隔线的代码实现为："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:471
+msgid ""
+"**如果要对所有文档使用某些替换，请将它们放入 rst_prolog 或 rst_epilog "
+"或者将它们放在单独的文件中，并将其包含到所有要在其中使用它们的文档中，使用 include 指令。** "
+"（确保为include文件提供与其他源文件不同的文件扩展名，以避免sphinx将其作为独立文档查找。）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:473
+msgid "**文档系统提供三个默认定义的替换。** 它们在构建配置文件中设置。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:475
+msgid ""
+"``|release|`` 由项目发布替代，文件参考。这是一个完整的版本字符串，包括alpha/beta/release候选标记，例如 "
+"2.5.2b3 . 通过设置 release ."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:476
+msgid ""
+"``|version|`` 替换为文档引用的项目版本。这意味着只包含主要和次要版本的部分，例如 2.5 ，即使是2.5.1版。通过设置 "
+"version ."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/order.rst:477
+msgid ""
+"``|today|`` 替换为今天的日期（文档的读取日期）或生成配置文件中设置的日期。通常有格式 April 14, 2007 . 通过设置 "
+"today_fmt 和 today ."
+msgstr ""
+

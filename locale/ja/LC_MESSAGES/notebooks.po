@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/notebooks.ipynb:10002
+msgid "Content with notebooks"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10004
+msgid ""
+"You can also create content with Jupyter Notebooks. This means that you "
+"can include code blocks and their outputs in your book."
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10007
+msgid "Markdown + notebooks"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10009
+msgid "As it is markdown, you can embed images, HTML, etc into your posts!"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10011
+msgid "![](https://myst-parser.readthedocs.io/en/latest/_static/logo-wide.svg)"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10013
+msgid "You can also $add_{math}$ and"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10015
+msgid ""
+"\n"
+"math^{blocks}\n"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10019
+msgid "or"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10021
+msgid ""
+"\n"
+"\\begin{aligned}\n"
+"\\mbox{mean} la_{tex} \\\\ \\\\\n"
+"math blocks\n"
+"\\end{aligned}\n"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10028
+msgid "But make sure you \\$Escape \\$your \\$dollar signs \\$you want to keep!"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10030
+msgid "MyST markdown"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10032
+msgid ""
+"MyST markdown works in Jupyter Notebooks as well. For more information "
+"about MyST markdown, check out [the MyST guide in Jupyter "
+"Book](https://jupyterbook.org/content/myst.html), or see [the MyST "
+"markdown documentation](https://myst-parser.readthedocs.io/en/latest/)."
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10036
+msgid "Code blocks and outputs"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:10038
+msgid ""
+"Jupyter Book will also embed your code blocks and output in your book. "
+"For example, here's some sample Matplotlib code:"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:40002
+msgid ""
+"There is a lot more that you can do with outputs (such as including "
+"interactive outputs) with your book. For more information about this, see"
+" [the Jupyter Book documentation](https://jupyterbook.org)"
+msgstr ""
+
+#: ../../source/notebooks.ipynb:80002
+msgid ""
+"https://github.com/executablebooks/quantecon-mini-example "
+"https://executablebooks.github.io/quantecon-mini-"
+"example/docs/python_by_example.html"
+msgstr ""
+

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/example/title2.rst:6
+msgid "标题学习2"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/title2.rst:9
+msgid "用以对比标题学习1的代码。该文件的标题是以单线 ``=`` 符号标题开始的。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/title2.rst:12
+msgid "=单线标题示例"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/title2.rst:17
+msgid "二级=双线标题"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/title2.rst:21
+msgid "三级-单线"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/title2.rst:26
+msgid "四级-双线"
+msgstr ""
+

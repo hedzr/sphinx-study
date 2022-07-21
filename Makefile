@@ -38,7 +38,7 @@ autobuild:
 
 po: gettext
 	which sphinx-intl || pip3 install sphinx-intl
-	sphinx-intl update -p build/gettext -l zh_CN # -l ja
+	sphinx-intl update -p build/gettext -l zh_CN -l ja
 
 zh: po
 	$(SPHINXBUILD) -b html -D language=zh_CN "$(SOURCEDIR)" "$(BUILDDIR)/html/zh_CN" $(SPHINXOPTS) # --open-browser --port=2902

@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/Table.rst:3
+msgid "表格 Table"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:5
+msgid "本章节讲解借助 VSCode的插件 Table Formatter 来生成的 reST 原生表格。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:9
+msgid "using plugin -- VSCode Table Formatter"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:11
+msgid ""
+"使用VSCode的插件 Table Formatter; 同时，Table Formatter 插件还适用于其他类型和格式的 table , "
+"这里并不加以详述。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:15
+msgid ""
+"虽然 rest 有以下基本表格方法，但是根据笔者在使用的过程中的体验来说，如果是 **基本的表格** （没有列合并或行合并的），那么可能直接使用"
+"  :ref:`csv table <csv-table>`  或 :ref:`list table <list-table>`  "
+"指令较好；因为比较有用的 rest 自身表格Grid Table 常常需要插件才能快速生成（但是准备过程也麻烦，而且 rest 自身表格语法需要与"
+" :ref:`table <table-directive>`  "
+"指令结合使用才能调整表格和添加标题）,同时，这样生成的表格会使得我们在后期维护时陷入麻烦。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:17
+msgid "使用 Grid Table 的唯一好处就是可以建立复杂的表格。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:21
+msgid "Grid Table"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:24
+msgid "basic usage"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:38
+msgid ""
+"Enter command in the command palette (**Ctrl-Shift-P** or **Cmd-"
+"Shift-P**) with cursor position in table syntax. 通过命令面板运行 ``Table: Format"
+" current`` 命令  =>"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:51
+msgid "usage --plus"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:73
+msgid "Header 1"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:73
+msgid "Header 2"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:73
+msgid "Header 3"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:75
+msgid "body row 1"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:75
+msgid "column 2"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:75
+msgid "column 3"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:77
+msgid "body row 2"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:77
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:79
+msgid "body row 3"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:79
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:79
+msgid "Cells"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:81
+msgid "body row 4"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:81
+msgid "blocks."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:83
+msgid "body row 5"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:83
+#: ../../source/sptools/sphinx/rest/Table.rst:85
+msgid "test"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:88
+msgid "对于以上形式的表格，较好的实现方法是先通过正常方法编写。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:110
+msgid "然后通过命令生成表格："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:133
+#: ../../source/sptools/sphinx/rest/Table.rst:176
+msgid "类别"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:133
+#: ../../source/sptools/sphinx/rest/Table.rst:176
+msgid "类型"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:133
+#: ../../source/sptools/sphinx/rest/Table.rst:176
+msgid "存储需求"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:133
+#: ../../source/sptools/sphinx/rest/Table.rst:176
+msgid "取值范围"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:135
+#: ../../source/sptools/sphinx/rest/Table.rst:137
+#: ../../source/sptools/sphinx/rest/Table.rst:139
+#: ../../source/sptools/sphinx/rest/Table.rst:141
+#: ../../source/sptools/sphinx/rest/Table.rst:178
+msgid "整型"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:135
+#: ../../source/sptools/sphinx/rest/Table.rst:178
+msgid "int"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:135
+#: ../../source/sptools/sphinx/rest/Table.rst:143
+#: ../../source/sptools/sphinx/rest/Table.rst:178
+#: ../../source/sptools/sphinx/rest/Table.rst:186
+msgid "4 字节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:135
+#: ../../source/sptools/sphinx/rest/Table.rst:178
+msgid "-2 147 483 648 ~ 2 147 483 647 (正好超过 20 亿)"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:137
+#: ../../source/sptools/sphinx/rest/Table.rst:180
+msgid "short"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:137
+#: ../../source/sptools/sphinx/rest/Table.rst:180
+msgid "2 字节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:137
+#: ../../source/sptools/sphinx/rest/Table.rst:180
+msgid "-32 768 ~ 32 767"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:139
+#: ../../source/sptools/sphinx/rest/Table.rst:182
+msgid "long"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:139
+#: ../../source/sptools/sphinx/rest/Table.rst:182
+msgid "8字节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:139
+#: ../../source/sptools/sphinx/rest/Table.rst:182
+msgid "-9 223 372 036 854 775 B08 ~ 9 223 372 036 854 775 807"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:141
+#: ../../source/sptools/sphinx/rest/Table.rst:184
+msgid "byte"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:141
+#: ../../source/sptools/sphinx/rest/Table.rst:184
+msgid "1 字节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:141
+#: ../../source/sptools/sphinx/rest/Table.rst:184
+msgid "-128 ~ 127"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:143
+#: ../../source/sptools/sphinx/rest/Table.rst:145
+#: ../../source/sptools/sphinx/rest/Table.rst:186
+msgid "浮点数"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:143
+#: ../../source/sptools/sphinx/rest/Table.rst:186
+msgid "float"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:143
+#: ../../source/sptools/sphinx/rest/Table.rst:186
+msgid "大约 ± 3.402 823 47E+38F (有效位数为 6 ~ 7 位）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:145
+#: ../../source/sptools/sphinx/rest/Table.rst:188
+msgid "double"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:145
+#: ../../source/sptools/sphinx/rest/Table.rst:188
+msgid "8 宇节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:145
+#: ../../source/sptools/sphinx/rest/Table.rst:188
+msgid "大约 ± 1.797 693 134 862 315 70E+308 (有效位数为 15 位>"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:147
+#: ../../source/sptools/sphinx/rest/Table.rst:190
+msgid "字符"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:147
+#: ../../source/sptools/sphinx/rest/Table.rst:190
+msgid "char"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:147
+#: ../../source/sptools/sphinx/rest/Table.rst:190
+msgid "2字节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:151
+msgid "直接编辑生成后的表格为预期的表格（注意要对齐节点）："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:196
+msgid "生成后的 Grid Table 可以添加 :ref:`table 指令 <table-directive>` 来附加标题和调整位置等。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:198
+msgid "a test for grid table"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:202
+msgid "Mon"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:202
+msgid "Tue"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:202
+msgid "Wed"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:202
+msgid "Thu"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:202
+msgid "Fri"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:204
+msgid "田中"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:204
+#: ../../source/sptools/sphinx/rest/Table.rst:206
+msgid "(^^)"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:204
+#: ../../source/sptools/sphinx/rest/Table.rst:206
+msgid "('')"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/Table.rst:206
+msgid "鈴木"
+msgstr ""
+

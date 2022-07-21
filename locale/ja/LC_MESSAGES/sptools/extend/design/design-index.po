@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "网格 —— grid"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "卡片 —— card"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "可下拉选项卡 —— dropdown"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "标签选项卡 —— tab-set"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "Badges, Buttons & Icons"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "附加功能"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:58
+msgid "样式 css"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:5
+msgid "Sphinx Design"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:7
+msgid "**更新时间: 2021-12-21, 11:46:56  | sphinx_design 版本：{{sphinx_design}}**"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:9
+msgid "用于设计漂亮的、屏幕大小的响应式 Web 组件的 Sphinx 扩展。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:11
+msgid "适用于多种主题的 Sphinx Design"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:13
+msgid ""
+"该插件使用多个主题，分别有 `alabaster`、`sphinx-book-theme`、`pydata-sphinx-theme"
+"`、`sphinx-rtd-theme`、`furo` 。同时，Sphinx "
+"Design在不同主题下的语法可能不一样，所以需要读者根据实际使用的主题来阅读 Sphinx Design 语法。本篇章记录的 Sphinx "
+"Design 是适用于 `sphinx-book-theme` 的语法。[点击前往官方文档查看](https://sphinx-"
+"design.readthedocs.io/en/sbt-theme/) 其他主题下的 Sphinx Design 的使用。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:16
+msgid "安装和配置"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:18
+msgid "只需 pip 安装 Sphinx Design ，并添加扩展到您的 `conf.py` :"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:24
+msgid ""
+"对于使用 `MyST Parser` (或者基于 `MyST Parser` 的解析器，如 `MyST-"
+"NB`)来解析的Markdown文档，建议使用 `colon_fence` 语法扩展:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:32
+msgid "隐藏页面的标题标题"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md:34
+msgid "要隐藏页面的标题标题，请将下方代码添加到页面顶部："
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md
+msgid "MyST Markdown"
+msgstr ""
+
+#: ../../source/sptools/extend/design/design-index.md
+msgid "RestructuredText"
+msgstr ""
+

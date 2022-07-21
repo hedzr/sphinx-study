@@ -1,0 +1,591 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/markdown/base.md:1
+msgid "Markdown基础语法学习 (1)"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:3
+msgid "标题"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:5
+msgid "要创建标题，请在单词或短语的前面添加一定数量的 `#` 符号。（符号数量在1~6，一般来说4级标题足以应对）"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "Markdown"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "HTML"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`# Heading level 1`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`<h1>Heading level 1</h1>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`## Heading level 2`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`<h2>Heading level 2</h2>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`### Heading level 3`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`<h3>Heading level 3</h3>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`#### Heading level 4`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`<h4>Heading level 4</h4>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`##### Heading level 5`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`<h5>Heading level 5</h5>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`###### Heading level 6`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md
+msgid "`<h6>Heading level 6</h6>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:18
+msgid "段落"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:20
+msgid "要创建段落，请使用空白行分隔一行或多行文本。您不应缩进带有空格或制表符的段落。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:28
+msgid "下方为段落示例代码的渲染输出"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:30
+msgid "我真的很喜欢使用Markdown。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:32
+msgid "我想从现在开始，我将使用它来格式化所有文档。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:34
+msgid "换行"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:36
+msgid "要创建换行符（`<br>`），请以 **两个或多个空格结束一行，然后键入return**。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:43
+msgid "下方为换行示例代码的渲染输出"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:45
+msgid "This is the first line.   And this is the second line."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:48
+msgid "字体"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:50
+msgid ""
+"要加粗文本，请在单词或短语的前后添加两个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间不加空格。Markdown"
+" 可以使用以下几种字体："
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:61
+msgid "下方为字体示例代码的渲染输出"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:63
+msgid "*斜体文本*   _斜体文本_   **粗体文本**   __粗体文本__   ***粗斜体文本***   ___粗斜体文本___"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:70
+msgid "块引用"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:72
+msgid "要创建 blockquote，请`>`在段落前面添加一个。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:78
+#: ../../source/sptools/markdown/base.md:92
+#: ../../source/sptools/markdown/base.md:108
+#: ../../source/sptools/markdown/base.md:127
+#: ../../source/sptools/markdown/base.md:214
+#: ../../source/sptools/markdown/base.md:246
+#: ../../source/sptools/markdown/base.md:258
+#: ../../source/sptools/markdown/base.md:272
+#: ../../source/sptools/markdown/base.md:288
+#: ../../source/sptools/markdown/base.md:300
+#: ../../source/sptools/markdown/base.md:314
+#: ../../source/sptools/markdown/base.md:330
+#: ../../source/sptools/markdown/base.md:348
+#: ../../source/sptools/markdown/base.md:386
+msgid "呈现的输出如下所示："
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:80
+#: ../../source/sptools/markdown/base.md:94
+#: ../../source/sptools/markdown/base.md:110
+msgid "Dorothy followed her through many of the beautiful rooms in her castle."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:82
+msgid "多个段落块引用"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:84
+msgid "块引用可以包含多个段落。段落之间的空白行上添加一个 `>`。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:96
+#: ../../source/sptools/markdown/base.md:112
+msgid ""
+"The Witch bade her clean the pots and kettles and sweep the floor and "
+"keep the fire fed with wood."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:98
+msgid "嵌套块引用"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:100
+msgid "块引用可以嵌套。>>在要嵌套的段落前面添加一个。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:114
+msgid "具有其他元素的块引用"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:116
+msgid "块引用可以包含其他Markdown格式的元素。并非所有元素都可以使用-您需要进行实验以查看哪些元素有效。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:129
+msgid "季度业绩看起来不错！"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:131
+msgid "收入超出了预期。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:132
+msgid "利润比以往任何时候都高。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:134
+msgid "*一切*都按**计划进行**。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:136
+msgid "有序列表"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:138
+msgid "要创建有序列表，请在订单项中添加数字和句点。**数字不必按数字顺序排列，但列表应以数字开头。**"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:153
+msgid "上方有序列表呈现的输出如下所示"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:155
+#: ../../source/sptools/markdown/base.md:159
+#: ../../source/sptools/markdown/base.md:181
+msgid "First item"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:156
+#: ../../source/sptools/markdown/base.md:160
+#: ../../source/sptools/markdown/base.md:182
+msgid "Second item"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:157
+#: ../../source/sptools/markdown/base.md:161
+#: ../../source/sptools/markdown/base.md:183
+msgid "Third item"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:158
+#: ../../source/sptools/markdown/base.md:164
+#: ../../source/sptools/markdown/base.md:186
+msgid "Fourth item"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:162
+#: ../../source/sptools/markdown/base.md:163
+#: ../../source/sptools/markdown/base.md:184
+#: ../../source/sptools/markdown/base.md:185
+msgid "Indented item"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:166
+msgid "无序列表"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:168
+msgid "要创建无序列表，请在订单项前添加破折号（`-`），星号（`*`）或加号（`+`）。缩进一个或多个项目以创建嵌套列表。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:179
+msgid "上方无序列表呈现的输出如下所示"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:188
+msgid "在列表中添加元素"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:190
+msgid "要在保留列表连续性的同时在列表中添加另一个元素，请将该元素缩进四个空格或一个制表符，如以下示例所示。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:216
+msgid "This is the first list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:218
+msgid "A blockquote would look great below the second list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:220
+msgid "Here's the second list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:222
+msgid "I need to add another paragraph below the second list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:224
+msgid "And here's the third list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:232
+msgid "And here's the fourth list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:234
+#: ../../source/sptools/markdown/base.md:368
+msgid "![tux.png](./example/tux.png)"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:234
+#: ../../source/sptools/markdown/base.md:368
+#: ../../source/sptools/markdown/base.md:370
+msgid "tux.png"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:236
+msgid "And here's the fifth list item."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:238
+msgid "代码"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:240
+msgid "要将单词或短语表示为代码，请将其括在勾号（```）中。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:248
+msgid "At the command prompt, type `nano`."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:250
+msgid "转义刻度线"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:252
+msgid "如果要表示为代码的单词或短语包含一个或多个刻度线，可以通过将单词或短语括在双刻度线（````）中来对其进行转义。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:260
+msgid "``Use `code` in your Markdown file.``"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:262
+msgid "代码块"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:264
+msgid "要创建代码块，请在代码块的每一行缩进至少四个空格或一个制表符。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:278
+msgid "扩展语法中有代码块的扩展语法 围栏代码块。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:280
+msgid "链接"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:282
+msgid ""
+"要创建链接，请将链接文本括在方括号（例如`[Duck Duck "
+"Go]`）中，然后立即在URL后面加上括号（例如`(https://duckduckgo.com)`）中的URL 。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:290
+msgid "My favorite search engine is [Duck Duck Go](https://duckduckgo.com)."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:292
+msgid "添加标题"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:294
+msgid "您可以选择为链接添加标题。当用户将鼠标悬停在链接上时，这将显示为工具提示。要添加标题，请将其括在URL后面的括号中。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:302
+msgid ""
+"My favorite search engine is [Duck Duck Go](https://duckduckgo.com \"The "
+"best search engine for privacy\")."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:304
+msgid "网址和电子邮件地址"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:306
+msgid "要将URL或电子邮件地址快速转换为链接，请将其括在尖括号中。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:316
+msgid "<https://markdown.p2hp.com>"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:318
+msgid "<fake@example.com>"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:320
+msgid "格式化链接"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:322
+msgid ""
+"为了[强调](http://markdown.p2hp.com/basic-"
+"syntax/index.html#emphasis)链接，请在方括号和括号之前和之后添加星号。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:332
+msgid "I love supporting the **[EFF](https://eff.org)**."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:334
+msgid "This is the *[Markdown Guide](https://markdown.p2hp.com)*."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:336
+msgid "引用样式链接"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:338
+msgid "引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。引用样式的链接分为两部分：与文本保持内联的部分以及在文件中其他位置存储的部分，以使文本易于阅读。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:350
+msgid ""
+"In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet "
+"hole, filled with the ends of worms and an oozy smell, nor yet a dry, "
+"bare, sandy hole with nothing in it to sit down on or to eat: it was a "
+"[hobbit-hole][1], and that means comfort."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:356
+msgid "图片"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:358
+msgid "要添加图像，请添加感叹号（`!`），然后在括号中添加替代文本，并在括号中添加图像资源的路径或URL。您可以选择在括号中的URL之后添加标题。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:360
+msgid ""
+"**注意：** "
+"使用Markdown并不意味着您也不能使用HTML。可以将HTML标签添加到任何Markdown文件中。如果您更喜欢某些HTML标记而不是Markdown语法，这将很有帮助。例如，将HTML标签用于图像更容易调整图片。当然，我们需要添加"
+" markdown-it-py 扩展配置，配置方法参考 {ref}`可选的 MyST 扩展语法 <myst-opational-syntax>` "
+"的 {ref}`MyST 提供的几种不同的语法来在文档中包含图像 <myst-optional-syntax-img>`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:372
+msgid "水平线"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:374
+msgid "要创建水平线`***`，请单独在一行上使用三个或更多的星号（），破折号（`---`）或下划线（`___`）"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:378
+msgid "转义字符"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:380
+msgid "要显示原义字符，否则将用于设置Markdown文档中的文本格式`\\`，请在字符前面添加反斜杠（）。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:388
+msgid "\\* 如果没有反斜杠，这将是无序列表中的项目符号。"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:390
+msgid "可以使用反斜杠转义以下字符"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "字符"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "名称"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "\\"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "反斜杠"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "`"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid ""
+"刻度线（另请参见[转义刻度线中的代码](http://markdown.p2hp.com/basic-syntax/index.html"
+"#escaping-tick-marks)）"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "*"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "星号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "_"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "下划线"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "{}"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "大括号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "[]"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "中括号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "()"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "括号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "#"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "井号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "+"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "加号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "-"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "减号（连字符）"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "."
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "点"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "!"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "感叹号"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid "|"
+msgstr ""
+
+#: ../../source/sptools/markdown/base.md:370
+msgid ""
+"管道（另请参见表中的[转义管道](http://markdown.p2hp.com/extended-syntax/index.html"
+"#escaping-pipe-characters-in-tables)）"
+msgstr ""
+

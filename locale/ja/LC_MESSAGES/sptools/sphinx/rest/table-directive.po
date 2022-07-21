@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 19:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:3
+msgid "表格指令 table-directive"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:6
+msgid "Grid Table 在多数情况下都比较难以使用，而且只有在借助额外插件的情况下才能较为快速地生成。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:8
+msgid "reST 除了 Grid Table 的无标题表格使用 , 还有 table、csv_table、list_table 指令。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:13
+msgid "table(directive)"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:15
+msgid "带有标题的一般表格和不带有标题的一般表格"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:18
+#: ../../source/sptools/sphinx/rest/table-directive.rst:31
+msgid "A"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:18
+#: ../../source/sptools/sphinx/rest/table-directive.rst:31
+msgid "not A"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:20
+#: ../../source/sptools/sphinx/rest/table-directive.rst:21
+#: ../../source/sptools/sphinx/rest/table-directive.rst:33
+#: ../../source/sptools/sphinx/rest/table-directive.rst:34
+msgid "False"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:20
+#: ../../source/sptools/sphinx/rest/table-directive.rst:21
+#: ../../source/sptools/sphinx/rest/table-directive.rst:33
+#: ../../source/sptools/sphinx/rest/table-directive.rst:34
+msgid "True"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:25
+msgid "Truth table for \"not\""
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:64
+msgid "所谓带有标题的表格只是在以往的简单表格结构上添加指令，同样的道理，Grid Table 也可以添加 table 指令来携带标题或进行其他调整。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:67
+msgid "table 指令有以下属性："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:69
+#: ../../source/sptools/sphinx/rest/table-directive.rst:164
+#: ../../source/sptools/sphinx/rest/table-directive.rst:233
+msgid "``align`` : \"left\", \"center\", or \"right\" ； 用来调整表格在页面中的水平位置。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:70
+#: ../../source/sptools/sphinx/rest/table-directive.rst:165
+#: ../../source/sptools/sphinx/rest/table-directive.rst:234
+msgid ""
+"``widths`` : \"auto\", \"grid\", or *a list of integers* "
+"(如果对于一个有两列n行的表格，那么它的属性值可为 **1,2**) ； 用来调整表格的每个列的占比。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:71
+#: ../../source/sptools/sphinx/rest/table-directive.rst:166
+#: ../../source/sptools/sphinx/rest/table-directive.rst:235
+msgid "``width`` : 长度或百分比 ； 用来调整表格的宽度。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:76
+msgid "csv-table"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:79
+#: ../../source/sptools/sphinx/rest/table-directive.rst:190
+msgid "Frozen Delights!"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:194
+msgid "Treat"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:195
+msgid "Quantity"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:196
+msgid "Description"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:197
+msgid "Albatross"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:198
+msgid "2.99"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:199
+#: ../../source/sptools/sphinx/rest/table-directive.rst:206
+msgid "On a stick!"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:200
+msgid "Crunchy Frog"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:201
+msgid "1.49"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:202
+msgid "If we took the bones out, it wouldn't be crunchy, now would it?"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:204
+msgid "Gannet Ripple"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+#: ../../source/sptools/sphinx/rest/table-directive.rst:205
+msgid "1.99"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:89
+msgid "使用本地csv文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "id"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "morderno"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "ddate"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "dptno"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "create_time"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "1437713917703745537"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021090007"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-14 17:39:52.000"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "NULL"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-14 17:44:44.077"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "1438063566335602689"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021090008"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-15 12:00:00.000"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-15 16:54:06.813"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "1439021000386506754"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021090009"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-18 08:14:42.000"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-18 08:18:36.877"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "1439475426209329153"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021090010"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-19 14:20:17.000"
+msgstr ""
+
+#: ../../source/sptools/sphinx/example/csv_table_example.csv:1
+msgid "2021-09-19 14:24:20.427"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:92
+msgid "将前行csv数据作为 header"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:96
+msgid "将前两列csv数据作为 header"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:100
+msgid "需要双倍使用分隔符才能将分隔符显示"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+msgid "He said, \"On a stick!\""
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:107
+msgid "使用 · 来 替代引号作为分隔符"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:1
+msgid "he said,\"On a stick!\""
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:119
+#: ../../source/sptools/sphinx/rest/table-directive.rst:208
+msgid "代码如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:162
+msgid "csv-table 指令有以下属性："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:167
+msgid "``file`` : The local filesystem path to a CSV data file."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:168
+msgid "``url`` :  An Internet URL reference to a CSV data file."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:169
+msgid "``encoding`` : string ； 外部CSV数据(文件或URL)的文本编码。默认为文档的编码(如果指定)。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:170
+msgid "``header-rows`` : 要在表头中使用的CSV数据行数。默认值为0。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:171
+msgid "``stub-columns`` : 要在表头中使用的CSV数据列数。默认值为0。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:172
+msgid ""
+"``header`` : 表头的补充数据，独立于主CSV数据的任何 ``header-rows`` "
+"(标题行)并在其之前添加。必须使用与主CSV数据相同的CSV格式。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:173
+msgid ""
+"``delim`` : 用于分隔字段的 **单字符字符串**。默认为 ``,``(逗号)。 空格为 ``space`` ，tab 为 "
+"``tab`` 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:174
+msgid "``quote`` : 一个单字符字符串，用于引用包含分隔符的元素或以引号字符开头的元素。默认为 ``\"`` (quote/引号)"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:175
+msgid "``keepspace`` : flag (empty);将紧跟在分隔符后面的空格视为有意义的。默认是忽略这些空白。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:180
+msgid ""
+"在csv-table的字符串有需要使用双引号或单引号，同时分隔符quote为 ``\"``，只需要双倍使用即可，如数据为 **\"He said,"
+" \"\"Hi!\"\"\"**"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:185
+msgid "list-table"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:188
+msgid "一个统一的两级项目符号列表。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:231
+msgid "list-table 指令有以下属性："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:236
+msgid "``header-rows`` : 要在表头中使用的数据行数。默认值为0。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/table-directive.rst:237
+msgid "``stub-columns`` : 要在表头中使用的数据列数。默认值为0。"
+msgstr ""
+
