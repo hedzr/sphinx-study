@@ -397,6 +397,8 @@ def configureDoxyfile(base_dir, proj_dir, input_dir, output_dir):
 
             with open(proj_dir + '/Doxyfile', 'w') as file:
                 file.write(filedata)
+            return True
+    return False
 
 
 # Check if we're running on Read the Docs' servers
@@ -409,11 +411,10 @@ if read_the_docs_build:
     proj_dir = base_dir + '/doxygen'
     input_dir = '..'
     output_dir = input_dir + '/build'
-    configureDoxyfile(base_dir, proj_dir, input_dir, output_dir)
-
-    subprocess.call('doxygen', cwd=proj_dir, shell=True)
-    breathe_projects[project] = '../' + output_dir + '/xml'
-    breathe_default_project = project
+    if configureDoxyfile(base_dir, proj_dir, input_dir, output_dir):
+        subprocess.call('doxygen', cwd=proj_dir, shell=True)
+        breathe_projects[project] = '../' + output_dir + '/xml'
+        breathe_default_project = project
 else:
     dir = '../../build/xml'
     if os.path.isdir(dir) and os.path.isfile(dir + '/namespacecmdr.xml'):

@@ -17,7 +17,7 @@ insert_final_newline = true
 # 4 space indentation 控制py文件类型的缩进大小
 [*.{py,md,java}]
 indent_style = space
-indent_size = 4
+indent_size = 3
 
 [*.rst]
 indent_style = space
