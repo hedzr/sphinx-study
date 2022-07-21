@@ -44,6 +44,30 @@ source_suffix = {
     '.md': 'myst-nb',
 }
 
+#
+
+read_the_docs_build = os.environ.get("READTHEDOCS", None) == "True"
+travis_build = os.environ.get("TRAVIS_CI", None) == "True"
+
+# # Get version of Doxygen and save it as a tuple
+
+# doxygen_test = subprocess.run(["doxygen", "--version"], capture_output=True)
+# if doxygen_test.returncode < 0:
+#     raise RuntimeError(
+#         "doxygen --version reported the following error:\n\t"
+#         + str(doxygen_test.stderr, encoding="utf-8")
+#     )
+# doxygen_version = tuple(
+#     int(x) for x in str(doxygen_test.stdout, encoding="utf-8").split()[0].split(".")
+# )
+# print("Using Doxygen v%d.%d.%d" % doxygen_version)
+
+# # Get a description of the current position. Use Popen for 2.6 compat
+# git_tag = subprocess.Popen(["git", "describe", "--tags"], stdout=subprocess.PIPE).communicate()[0]
+
+# # convert from bytes to string
+# git_tag = git_tag.decode("ascii")
+
 # -- Project information -----------------------------------------------------
 
 project = 'HZNB'
@@ -139,7 +163,7 @@ imgmath_latex_preamble = '\\usepackage{unicode-math}\\setmathfont{XITS Math}'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -147,72 +171,84 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 html_css_files = ["custom.css"]
 
-html_theme = "sphinx_book_theme"
+html_theme = 'sphinx_book_theme'
+# html_theme = 'sphinx_rtd_theme'
+# html_theme = 'default'
+html_theme = 'furo'  # https://github.com/pradyunsg/furo , https://pradyunsg.me/furo/recommendations/
 html_logo = "_static/logo-wide.svg"
 html_favicon = "_static/logo-square.svg"
 # html_logo = "_static/notebook-badge.svg"
 # html_favicon = "_static/logo-square.svg"
 # html_title = ""
-html_theme_options = {
-    "home_page_in_toc": True,
-    "github_url": github_url,
-    "repository_url": github_url,
-    "repository_branch": "master",
-    "path_to_docs": "./source",
-    "use_repository_button": True,
-    "use_edit_page_button": True,
+html_theme_options = {}
+if html_theme == 'furo':
+    html_theme_options = {
+        "sidebar_hide_name": True,
+        "navigation_with_keys": True,
+    }
+if html_theme == 'sphinx_rtd_theme' or html_theme == 'sphinx_book_theme':
+    html_theme_options = {
+        "home_page_in_toc": True,
+        "github_url": github_url,
+        "repository_url": github_url,
+        "repository_branch": "master",
+        "path_to_docs": "./source",
+        "use_repository_button": True,
+        "use_edit_page_button": True,
 
-    # （仅限开发人员）触发一些功能，使开发主题更容易。默认 `False`
-    # "theme_dev_mode": False,
+        # （仅限开发人员）触发一些功能，使开发主题更容易。默认 `False`
+        # "theme_dev_mode": False,
 
-    # ----------------主题内容中导航栏的功能按钮配置--------
-    # 添加存储库链接
-    # "repository_url": "https://github.com/Eugene-Forest/NoteBook",
-    # 添加按钮以链接到存储库
-    # "use_repository_button": True,
-    # 要添加按钮以打开有关当前页面的问题
-    "use_issues_button": True,
-    # 添加一个按钮来建议编辑
-    # "use_edit_page_button": True,
-    # 在导航栏添加一个按钮来切换全屏的模式。
-    "use_fullscreen_button": True,  # 默认 `True`
-    # 默认情况下，编辑按钮将指向master分支，但如果您想更改此设置，请使用以下配置
-    # "repository_branch": "main",
-    # 默认情况下，编辑按钮将指向存储库的根目录；而我们 sphinx项目的 doc文件其实是在 source 文件夹下的，包括 conf.py 和 index(.rst) 主目录
-    # "path_to_docs": "source",
-    # 您可以添加 use_download_button 按钮，允许用户以多种格式下载当前查看的页面
-    # "use_download_button": False,
+        # ----------------主题内容中导航栏的功能按钮配置--------
+        # 添加存储库链接
+        # "repository_url": github_url,
+        # 添加按钮以链接到存储库
+        # "use_repository_button": True,
+        # 要添加按钮以打开有关当前页面的问题
+        "use_issues_button": True,
+        # 添加一个按钮来建议编辑
+        # "use_edit_page_button": True,
+        # 在导航栏添加一个按钮来切换全屏的模式。
+        "use_fullscreen_button": True,  # 默认 `True`
+        # 默认情况下，编辑按钮将指向master分支，但如果您想更改此设置，请使用以下配置
+        # "repository_branch": "main",
+        # 默认情况下，编辑按钮将指向存储库的根目录；而我们 sphinx项目的 doc文件其实是在 source 文件夹下的，包括 conf.py 和 index(.rst) 主目录
+        # "path_to_docs": "source",
+        # 您可以添加 use_download_button 按钮，允许用户以多种格式下载当前查看的页面
+        # "use_download_button": False,
+        'style_nav_header_background': '#65afff',
+        'display_version': True,
 
-    # --------------------------右侧辅助栏配置---------
-    # 重命名右侧边栏页内目录名，标题的默认值为Contents。
-    # "toc_title": "导航",
-    # -- 在导航栏中显示子目录，向下到这里列出的深度。 ----
-    "show_toc_level": 2,
-    # --------------------------左侧边栏配置--------------
-    # -- 只显示标识，不显示 `html_title`，如果它存在的话。-----
-    "logo_only": True,
-    # 控制左侧边栏列表的深度展开,默认值为1，它仅显示文档的顶级部分
-    "show_navbar_depth": 1,
-    # 自定义侧边栏页脚,默认为 Theme by the Executable Book Project
-    # "extra_navbar": "<p>Your HTML</p>",
-    # "home_page_in_toc": False,  # 是否将主页放在导航栏（顶部）
-    # ------------------------- 单页模式 -----------------
-    # 如果您的文档只有一个页面，并且您不需要左侧导航栏，那么您可以 使用以下配置将其配置sphinx-book-theme 为以单页模式运行
-    # "single_page": True,
+        # --------------------------右侧辅助栏配置---------
+        # 重命名右侧边栏页内目录名，标题的默认值为Contents。
+        # "toc_title": "导航",
+        # -- 在导航栏中显示子目录，向下到这里列出的深度。 ----
+        "show_toc_level": 2,
+        # --------------------------左侧边栏配置--------------
+        # -- 只显示标识，不显示 `html_title`，如果它存在的话。-----
+        "logo_only": True,
+        # 控制左侧边栏列表的深度展开,默认值为1，它仅显示文档的顶级部分
+        "show_navbar_depth": 1,
+        # 自定义侧边栏页脚,默认为 Theme by the Executable Book Project
+        # "extra_navbar": "<p>Your HTML</p>",
+        # "home_page_in_toc": False,  # 是否将主页放在导航栏（顶部）
+        # ------------------------- 单页模式 -----------------
+        # 如果您的文档只有一个页面，并且您不需要左侧导航栏，那么您可以 使用以下配置将其配置sphinx-book-theme 为以单页模式运行
+        # "single_page": True,
 
-    # 用于交互的启动按钮
-    # Thebe将您的静态代码块转换 为由 Jupyter 内核提供支持的交互式代码块。它通过要求一个BinderHub内核做到这一点 的引擎盖下，您的所有代码细胞转换成互动码单元。这允许用户在不离开页面的情况下在您的页面上运行代码。
-    # "launch_buttons": {
-    #     "binderhub_url": "https://mybinder.org",
-    #     # 控制打开的用户界面
-    #     "notebook_interface": "jupyterlab",
-    #     "thebe": True,
-    # },
-    # -- 在每个页面的页脚添加额外的 HTML。---
-    # "extra_footer": '',
-}
+        # 用于交互的启动按钮
+        # Thebe将您的静态代码块转换 为由 Jupyter 内核提供支持的交互式代码块。它通过要求一个BinderHub内核做到这一点 的引擎盖下，您的所有代码细胞转换成互动码单元。这允许用户在不离开页面的情况下在您的页面上运行代码。
+        # "launch_buttons": {
+        #     "binderhub_url": "https://mybinder.org",
+        #     # 控制打开的用户界面
+        #     "notebook_interface": "jupyterlab",
+        #     "thebe": True,
+        # },
+        # -- 在每个页面的页脚添加额外的 HTML。---
+        # "extra_footer": '',
+    }
 # OpenGraph metadata
-ogp_site_url = "https://cmdr-cxx.readthedocs.io/en/latest"
+ogp_site_url = "https://hz-sphinx-study.readthedocs.io/en/latest"
 # This is the image that GitHub stores for our social media previews
 ogp_image = "https://repository-images.githubusercontent.com/240151150/316bc480-cc23-11eb-96fc-4ab2f981a65d"  # noqa: E501
 ogp_custom_meta_tags = [
@@ -412,11 +448,7 @@ def configureDoxyfile(base_dir, proj_dir, input_dir, output_dir):
     return False
 
 
-# Check if we're running on Read the Docs' servers
-read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
-# read_the_docs_build = True
 breathe_projects = {}
-
 if read_the_docs_build:
     base_dir = '../..'
     proj_dir = base_dir + '/doxygen'

@@ -36,9 +36,9 @@ h3::before {
     padding-left: .6rem;
 }
 
-p {
+/* p {
     text-align: justify;
-}
+} */
 
 .toctree-wrapper ul li {
     margin-left: -8px;
@@ -47,5 +47,15 @@ p {
 
 .toctree-wrapper ul li ul li {
     margin-left: -24px;
+    text-indent: 0px;
+}
+
+.toctree-wrapper li.toctree-l1 {
+    margin-left: 0px;
+    text-indent: 16px;
+}
+
+.toctree-wrapper li.toctree-l2, .toctree-wrapper li.toctree-l3, .toctree-wrapper li.toctree-l4 {
+    margin-left: -4px;
     text-indent: 0px;
 }
