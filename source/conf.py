@@ -123,6 +123,15 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The encoding of source files.
 source_encoding = 'utf-8-sig'
 
+# imgmath_image_format = 'svg'
+imgmath_image_format = 'svg'
+
+imgmath_latex = 'xelatex'
+
+imgmath_latex_args = ['--no-pdf']
+
+imgmath_latex_preamble = '\\usepackage{unicode-math}\\setmathfont{XITS Math}'
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

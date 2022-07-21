@@ -132,43 +132,43 @@ See :download:`this example xml file <../example/test.xml>`.
 ===============
 
 
-math
--------------------
+.. math
+.. -------------------
 
-.. math:: e^{i\pi} + 1 = 0
-   :label: euler
+.. .. math:: e^{i\pi} + 1 = 0
+..    :label: euler
 
-Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
+.. Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
 
-.. math::
+.. .. math::
 
-    α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
-
-
-:math:`α_t(i) = P(O_1 × O_2 × … O_t × q_t = S_i λ)` 
-
-The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
-
-Euler's identity, equation :math:numref:`euler`, was elected one of the
-most beautiful mathematical formulas.
-
-.. code-block:: rest
-
-   .. 上方数学公式的代码为：
-
-   .. math:: e^{i\pi} + 1 = 0
-      :label: euler
-
-   Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
-
-   .. math::
-
-      α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
+..     α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
 
 
-   :math:`α_t(i) = P(O_1 × O_2 × … O_t × q_t = S_i λ)` 
+.. :math:`α_t(i) = P(O_1 × O_2 × … O_t × q_t = S_i λ)` 
 
-   The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+.. The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
+
+.. Euler's identity, equation :math:numref:`euler`, was elected one of the
+.. most beautiful mathematical formulas.
+
+.. .. code-block:: rest
+
+..    .. 上方数学公式的代码为：
+
+..    .. math:: e^{i\pi} + 1 = 0
+..       :label: euler
+
+..    Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
+
+..    .. math::
+
+..       α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
+
+
+..    :math:`α_t(i) = P(O_1 × O_2 × … O_t × q_t = S_i λ)` 
+
+..    The area of a circle is :math:`A_\text{c} = (\pi/4) d^2`.
 
    Euler's identity, equation :math:numref:`euler`, was elected one of the
    most beautiful mathematical formulas.
