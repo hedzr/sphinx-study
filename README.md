@@ -8,6 +8,7 @@ a notebook for studying sphinx documenter.
 
 This repo is a expeiremental notebook for studying how to use sphinx to build a online docsite.
 
+[status admin](https://readthedocs.org/projects/hz-sphinx-study/)
 
 
 ## Build
