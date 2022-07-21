@@ -121,7 +121,7 @@ language = 'en'
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # The encoding of source files.
-#source_encoding = 'utf-8-sig'
+source_encoding = 'utf-8-sig'
 
 # -- Options for HTML output -------------------------------------------------
 
