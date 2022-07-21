@@ -16,6 +16,8 @@ See the online:
 
 > Welcome to HZNB's documentation!
 
+This repo is a expeiremental notebook for studying how to use sphinx to build a online docsite.
+
 ```{toctree}
 :hidden:
 :caption: Contents
