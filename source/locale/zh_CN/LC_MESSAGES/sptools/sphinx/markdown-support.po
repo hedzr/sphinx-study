@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/markdown-support.rst:3
+msgid "Markdown 支持"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:8
+msgid "MyST Markdown"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:12
+msgid ""
+"MyST Markdown 是 Markdown 的超集。更多关于 MyST Markdown 的信息前往官网 `MyST - Markedly "
+"Structured Text <https://myst-"
+"parser.readthedocs.io/en/latest/index.html>`_ 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:14
+msgid "当然，也可以前往笔者的 :ref:`关于 MyST 的笔记 <get-started-with-myst>` 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:18
+msgid ""
+"更多关于 MyST Markdown 的信息前往官网 `MyST - Markedly Structured Text <https"
+"://myst-parser.readthedocs.io/en/latest/index.html>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:20
+msgid "要配置您的Sphinx项目以支持 Markdown ，请按以下步骤进行："
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:22
+msgid "安装 Markdown 分析程序 推荐标记："
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:29
+msgid "添加 推荐标记 到 ``config.py`` 文件中 :"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:35
+msgid "在项目根目录下添加 requirement.txt 文件，并写入以下字段，以支持额外的Python环境。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:43
+msgid ""
+"`Requirements File Format <https://pip.pypa.io/en/latest/reference"
+"/requirements-file-format/#requirements-file-format>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/markdown-support.rst:45
+msgid "Requirements File 样板如下所示："
+msgstr ""
+

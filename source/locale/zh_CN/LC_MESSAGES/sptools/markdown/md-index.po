@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/markdown/md-index.md:18
+msgid "Markdown 基础语法"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:18
+msgid "Markdown 扩展语法"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:18
+msgid "目录"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:2
+msgid "Markdown"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:4
+msgid ""
+"**更新时间: 2021-12-21, 11:46:56  | Markdown 版本：{{markdown}} | markdown-it-py"
+" 版本：{{markdown_it_py}}**"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:6
+msgid ""
+"Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 "
+"年创建，如今已成为世界上最受欢迎的标记语言之一。"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:8
+msgid "专注于文字内容；"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:9
+msgid "纯文本，易读易写，可以方便地纳入版本控制；"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:10
+msgid "语法简单，没有什么学习成本，能轻松在码字的同时做出美观大方的排版。"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:13
+msgid "[Markdown语法速查表](https://markdown.com.cn/cheat-sheet.html)"
+msgstr ""
+
+#: ../../source/sptools/markdown/md-index.md:15
+msgid "{ref}`sphinx中的 Markdown支持 <markdown-support>`"
+msgstr ""
+

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:3
+msgid "显示代码"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:5
+msgid "总得来说，codeblock代码块指令有两种形式，一种是直接将代码放入代码块中，另一种是引用已有的文件的代码将其放入代码块中。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:8
+msgid "语法高亮支持的语言"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:10
+msgid "支持以下值："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:12
+msgid "``none`` （无突出显示）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:13
+msgid ""
+"``default`` （类似于 python3 但却退缩到 none 不带警告的突出显示失败；默认情况下 highlight_language "
+"未设置）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:14
+msgid "``guess`` （让Pygments根据内容猜测lexer，只适用于某些可识别的语言）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:15
+msgid "``python``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:16
+msgid "``rest``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:17
+msgid "``c``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:18
+msgid "``java``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:19
+msgid "… 以及其他语法高亮 `Pygments supports <https://pygments.org/languages/>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:22
+msgid "代码形式："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:24
+msgid "前者： ``.. code-block:: code_language_type``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:25
+msgid "后者： ``.. literalinclude:: code_file_path(local or internet)``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:27
+msgid "|75|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:30
+msgid "使用codeblock"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:42
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:70
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:101
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:131
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:160
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:181
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:199
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:213
+msgid "|15|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:44
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:103
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:183
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:201
+msgid "运行效果如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:54
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:85
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:114
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:145
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:169
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:188
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:206
+msgid "|50|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:57
+msgid "为代码块添加标题和 label"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:60
+msgid "代码块添加标题示例"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:72
+msgid "代码块添加标题示例代码"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:88
+msgid "显示行号"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:117
+msgid "突出特定行"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:133
+msgid "突出3到5行的运行效果如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:151
+msgid "引用一个文件 literalinclude"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:162
+msgid "运行结果如下；显示文件的第1到2行，以及30行之后的代码："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:172
+msgid "指定引用文件的方法，或类"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:174
+msgid "指令支持包含文件的一部分. 例如 Python模块, 可以选择类，函数或方法，使用 pyobject 选项。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:192
+msgid "diff2个文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:209
+msgid "锚点小测试"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/UsingFileCode.rst:211
+msgid "点击前往 :ref:`代码块添加标题示例 <HelloWorldExampleCodeBlock>`"
+msgstr ""
+

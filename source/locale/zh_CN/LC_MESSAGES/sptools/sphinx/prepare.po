@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/prepare.rst:3
+msgid "准备部分"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:7
+msgid ""
+"Sphinx 项目需要 Python 环境来支持,在此不对如何安装 Python 进行说明. 有需要的可以通过 `Python官网 "
+"<https://www.python.org/>`_ 单独下载."
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:11
+msgid "安装 Sphinx 并下载必要的包"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:13
+msgid "安装 Sphinx 库以及 ``sphinx-rtd-theme`` 主题库。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:21
+#: ../../source/sptools/sphinx/prepare.rst:90
+#: ../../source/sptools/sphinx/prepare.rst:109
+#: ../../source/sptools/sphinx/prepare.rst:127
+#: ../../source/sptools/sphinx/prepare.rst:135
+msgid "|30|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:24
+msgid "在项目根目录运行生成文档命令 ``sphinx-quickstart``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:68
+msgid "最后生成的项目结构如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:70
+msgid "build 、 _build 文件夹: 用来存放通过make html生成文档网页文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:71
+msgid "source 文件夹: 存放用于生成文档的源文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:72
+msgid "conf.py 文件: Sphinx的配置文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:73
+msgid "index.rst 文件: 主文档"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:74
+msgid "_static 、 _template 文件夹: 用来存放静态文件或模板html"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:81
+msgid "sphinx project tree 1"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:81
+msgid "非独立的源文件和构建目录"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:87
+msgid "sphinx project tree 2"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:87
+msgid "独立的源文件和构建目录"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:93
+msgid "配置主题"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:95
+msgid "在conf.py文件中配置以下属性以替换主题："
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:106
+msgid "更多主题配置点击查看  :ref:`HTML Theme <sphinx-html-theme>`  笔记."
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:112
+msgid "通过vscode的git插件创建存储库"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:114
+msgid "创建完之后，添加.gitignore文件以及README.md文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:117
+msgid "本项目的.gitignore文件代码如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:122
+msgid "本项目的README.md文件代码如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:130
+msgid "推送"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:132
+msgid "添加远程仓库，可以通过添加url添加仓库；如果使用了GitHub插件，那么可以直接选择并推送到现存的空仓库。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:138
+msgid "不同文件下的 tab 键行为控制"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:140
+msgid ""
+"这个功能配置可选择性添加，如果不使用 rst 文件编写笔记，那么这个功能也没有用；但是如果你打算使用 rst 文件编写笔记，甚至打算使用 rst "
+"和 md 文件混合编写笔记，那么就有必要控制 tab 键的行为，因为 RestructureText 语法中的指令的内容和可选项都需要缩进 "
+"**3个空格**。，虽然可以连击三个 space，但是显然直接使用 tab 键更快捷。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:142
+msgid ""
+"由于笔者使用 VsCode 编写笔记，然后发现通过分别设置 用户、工作区、文件夹的 ``settings.json`` 文件中的  "
+"``\"editor.tabSize\": 3`` 属性都没有很好的设置到 tab 的空格数。所以笔者索性通过插件 *EditorConfig "
+"for Visual Studio Code* 使用 ``.editorconfig`` 文件来格式化不同文件下的 tab 键。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/prepare.rst:144
+msgid ".editorconfig 文件"
+msgstr ""
+

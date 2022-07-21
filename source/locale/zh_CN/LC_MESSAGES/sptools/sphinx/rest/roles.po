@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/roles.rst:3
+msgid "角色"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:6
+msgid "sphinx使用解释文本角色将语义标记插入到文档中。它们被写为 ``:rolename:`content '``."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:11
+msgid "交叉引用任意位置 / 锚"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:13
+msgid "添加锚的步骤："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:15
+msgid "添加 label"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:16
+msgid "适用 ref 角色 链接 label"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:19
+msgid "为了支持对任何文档中任意位置的交叉引用，使用标准的REST标签。为此，在整个文档中，工作标签名称必须是唯一的。有两种方法可以引用标签："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:46
+msgid "``:ref:`Label```"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:22
+msgid "如果将标签直接放置在节标题之前，可以使用 ``:ref:`label-name``` .例如:"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:37
+msgid "自动标签同样适用于图像"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:49
+msgid "``:ref:`description _<Label>```"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:49
+msgid ""
+"如果不是以上情况，仍可以引用节标题之前未放置的标签，但必须使用以下语法为链接指定明确的标题： ``:ref:`Link title <label-"
+"name>```."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:53
+msgid "引用标签(label)必须以下划线开头。引用标签时，必须省略下划线（请参见上面的示例）。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:56
+msgid ""
+":ref:`引用可下载文件 <sptools/sphinx/rest/roles:引用可下载文件>` :ref:`menuselection "
+"<sptools/sphinx/rest/roles:交叉引用任意位置 / 锚>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:70
+msgid ""
+"手动为每个部分添加一个明确的目标并确保其唯一性是一项艰巨的任务！幸运的是，Sphinx 包含一个扩展来帮助我们解决这个问题， "
+"``autosectionlabel``。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:72
+msgid "要激活 ``autosectionlabel`` 扩展，请将其添加到您的 ``conf.py`` 文件中："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:84
+msgid "Sphinx 将为您的所有部分创建明确的目标，目标名称的形式为 ``{path/to/page}:{title-of-section}``."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:94
+msgid "引用可下载文件"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:96
+msgid "``:download:`Title <path>```"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:98
+msgid "此角色允许您链接到源树中的文件，这些文件不是可以查看的REST文档，而是可以下载的文件。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:100
+msgid ""
+"当您使用此角色时，被引用的文件将在生成时自动标记为包含在输出中（显然，仅用于HTML输出）。所有可下载的文件都放在 "
+"``_downloads/<unique hash>/`` 输出目录的子目录；处理重复的文件名。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:102
+msgid "See :download:`this example xml file <../example/test.xml>`."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:113
+msgid "交叉引用文档"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:115
+msgid "``:doc:`/text```"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:117
+msgid ""
+"链接到指定的文档；可以绝对或相对方式指定文档名。如果没有给出明确的链接文本（与通常一样：  ``:doc:`Monty Python "
+"members </people>``` 链接标题将是给定文档的标题。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:119
+msgid ":doc:`./basic`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:121
+msgid ":doc:`./basic <./basic>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:132
+msgid "数学"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:178
+msgid "``:eq:`` 等同于 ``math:numref`` ."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:181
+msgid "raw"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:183
+msgid "包括原始目标格式标记。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:185
+msgid ""
+"“raw” "
+"指示非restructuredtext数据，该数据将不受影响地传递给Writer。输出格式的名称在指令参数中给出。对原始数据的解释取决于作者。Writer可以忽略任何不匹配其格式的原始输出。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:202
+msgid "其他语义标记"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:204
+msgid "**以下角色除了以不同的样式格式化文本外，不执行任何特殊操作：**"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:207
+msgid "strong"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:209
+msgid "strong 角色标记的效果等同于双星号的字体加粗效果。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:211
+msgid "**text** :strong:`text`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:222
+msgid "sub / subscript  / 下标"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:224
+msgid "The chemical formula for pure water is |H2O|."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:228
+msgid "The chemical formula for pure Hydrogen Peroxide is |H2O2|."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:245
+msgid "sup / superscript / 上标"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:247
+msgid "|X2Y2| (|X2Y25|)."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:267
+msgid "abbr 文字提示"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:269
+msgid "缩写。如果角色内容包含一个带括号的解释，它将被特殊处理：它将以HTML的形式显示在工具提示中，并且在LaTex中只输出一次。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:271
+msgid ":abbr:`LIFO (last-in, first-out)`."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:283
+msgid "menuselection 菜单选项"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:285
+msgid ""
+"菜单选项应使用 menuselection "
+"角色。这用于标记菜单选择的完整序列，包括选择子菜单和选择特定操作，或此类序列的任何子序列。个别选择的名称应以分隔 --> ."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:287
+msgid "例如，要标记选择“开始>程序”，请使用以下标记："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:289
+msgid ":menuselection:`Start --> Programs`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:298
+msgid "guilabel 标签"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/roles.rst:301
+msgid ":guilabel:`guilabel`"
+msgstr ""
+

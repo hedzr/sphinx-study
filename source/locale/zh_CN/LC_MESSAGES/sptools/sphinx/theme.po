@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/theme.rst:3
+msgid "HTML Theme"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:8
+msgid ""
+"本篇章用来讲解 Sphinx 项目的主题设置, Sphinx 项目的默认主题为 \"default\". 不过由于 default "
+"主题比较难看所以一般都是将主题换为 ``sphinx_rtd_theme`` ."
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:12
+msgid "可以前往 [Sphinx Theme 官网](https://sphinx-themes.org/) 查看 Sphinx 支持的所有的主题."
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:16
+msgid "需要注意的是, Sphinx 项目的主题需要在 ``conf.py`` 文件中配置."
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:19
+msgid "|75|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:22
+#: ../../source/sptools/sphinx/theme.rst:24
+msgid "sphinx_rtd_theme 主题配置"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:33
+msgid ""
+"对于 sphinx_rtd_theme 主题，笔者并没有深入了解其配置，如果读者需要了解可 `点击链接前往官方文档学习 "
+"sphinx_rtd_theme 主题配置 <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/index.html>`_ 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:38
+#: ../../source/sptools/sphinx/theme.rst:47
+msgid "sphinx_book_theme 主题配置"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:40
+msgid ""
+"对于 sphinx_book_theme 主题，如果读者有需要，可 `点击链接前往官方文档学习 sphinx_book_theme 主题配置 "
+"<https://sphinx-book-theme.readthedocs.io/en/latest/index.html>`_ 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:44
+msgid ""
+"之所以使用该主题，是为了适应使用 MyST 标记语言的使用，而且 sphinx_rtd_theme 与 sphinx_book_theme "
+"相比，主题不够柔和，而 sphinx_book_theme 还支持 MyST 的一些特殊语法支持如侧边栏的使用。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/theme.rst:92
+msgid "通用配置"
+msgstr ""
+

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "响应式 Web 组件的 Sphinx 扩展—— Sphinx Design"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "下拉框按钮—— sphinx-togglebutton"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "选项卡工具—— Sphinx tabs"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "实时重新加载 Sphinx 文档"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "RST-to-MyST 转换工具"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "自动生成的标题锚点工具"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:25
+msgid "提供了对 TODO 项的支持"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:2
+msgid "Sphinx 扩展工具使用指南"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:4
+msgid ""
+"**更新时间: 2021-12-21, 11:46:56  | Sphinx 版本：{{sphinx}}  | markdown-it-py "
+"版本：{{markdown_it_py}}**"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:6
+msgid ""
+"Sphinx 插件还有 "
+"[原生插件](https://www.osgeo.cn/sphinx/usage/extensions/index.html) "
+"和非原生插件之分，原生插件的命名格式以 `sphinx.ext.` 开头，否则就是非原生插件（前提它是 Sphinx 插件），所有 Sphinx "
+"插件都是需要在 `conf.py` 中被配置的。"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:8
+msgid ""
+"对于原生插件，它是不需要在 ``requirements`` 相关文件中添加的，需要添加到在 requirements[^1] "
+"相关文件的插件是那些非原生插件。"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:10
+msgid ""
+"直接在 `conf.py` 文件中的 `extensions` 数组中添加插件名字符串后，然后添加一些其他配置代码的情况下即可直接生效。 例如 "
+"`sphinx_copybutton` 插件："
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md
+msgid "其他插件"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:39
+msgid "[sphinx_copybutton](https://sphinx-copybutton.readthedocs.io/en/latest/)"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:40
+msgid "{ref}`sphinx_book_theme 主题配置 <sphinx-sbt-theme-config>`"
+msgstr ""
+
+#: ../../source/sptools/extend/ext-index.md:43
+msgid ""
+"requirements 相关文件指的是 [pip 要求文件](https://pip.pypa.io/en/latest/user_guide"
+"/#requirements-files) , 因为我们在推送到 Read The Docs 平台时，它是不知道我们项目所需要的 Python "
+"依赖模块的，所以需要我们添加 **pip 要求文件** 来构建你的文档；[点击查看pip "
+"要求文件样式要求](https://pip.pypa.io/en/latest/reference/requirements-file-"
+"format/#requirements-file-format)。 点击查看关于 [Sphinx "
+"配置](../sphinx/config.rst) 文档笔记。"
+msgstr ""
+

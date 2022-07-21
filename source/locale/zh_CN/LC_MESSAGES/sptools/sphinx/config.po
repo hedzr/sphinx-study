@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/config.rst:3
+msgid "Sphinx 配置"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:6
+msgid ""
+"简单来说， Sphinx 项目中的 ``conf.py`` 文件就是该项目的配置文件，而例如 ``.readthedocs.yaml`` 、 "
+"``requirement.txt`` 文件是在部署在 Read The Docs 网站上是的项目运行环境配置文件。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:8
+msgid "配置文件："
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:10
+msgid "``.readthedocs.yaml`` : Sphinx 项目的运行环境的宏观配置"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:11
+msgid ""
+"``requirement.txt`` : Sphinx 项目的 python 依赖包 "
+"的运行环境配置。当然这类依赖导入文件的命名是无所谓的，只要是 ``.txt`` 并在 ``.readthedocs.yaml`` 中引用即可。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:12
+msgid "``conf.py`` : Sphinx 项目的内部配置"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:15
+msgid ".readthedocs.yaml"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:17
+msgid ""
+"Sphinx 项目的运行环境的宏观配置，包括指向Sphinx 项目的 python 依赖包 "
+"的运行环境配置文件。这是推荐的设置项目的方法。在使用此配置文件时， Read The Docs 项目的 ``管理 --> 高级设置 --> "
+"Default settings`` 列出的设置将被忽略。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:20
+msgid ""
+"Read The Docs 支持使用 YAML 文件配置文档构建。 **该配置文件必须在你的项目的根目录下** ，并命名 "
+"``.readthedocs.yaml``。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:22
+msgid "YAML 文件配置示例"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:27
+msgid ""
+"如果想要了解更多关于 YAML 文件配置， `点击前往 <https://docs.readthedocs.io/en/stable"
+"/config-file/v2.html>`_  。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:29
+msgid ""
+"需要注意文件的路径问题。在官方的文档中，Sphinx 项目是在项目文件夹下名为 docs 文件夹下新建的，所以在项目最外层与 "
+"``README.md`` 同级的情况下， ``requirement.txt`` 放在项目最外层，那么它的路径为 "
+"``docs/requirement.txt`` 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:32
+msgid "requirement.txt"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:34
+msgid ""
+"Sphinx 项目的 python 依赖包 的运行环境配置。当然这类依赖导入文件的命名是无所谓的，只要是 ``.txt`` 并在 "
+"``.readthedocs.yaml`` 中引用即可。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:36
+msgid ""
+"因为我们在推送到 Read The Docs 平台时，它是不知道我们项目所需要的 Python 依赖模块的，所以需要我们添加 `pip 要求文件 "
+"<https://pip.pypa.io/en/latest/user_guide/#requirements-files>`_  来构建文档； "
+"`点击查看pip 要求文件样式要求 <https://pip.pypa.io/en/latest/reference/requirements-"
+"file-format/#requirements-file-format>`_ 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:38
+msgid "requirement.txt 文件配置示例"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:44
+msgid "conf.py"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:46
+msgid "以下文本项目的实际配置文件。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:50
+msgid ""
+"更多详细内容请学习官方文档的 `配置篇 "
+"<https://www.osgeo.cn/sphinx/usage/configuration.html>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/config.rst:52
+msgid "项目的实际 conf.py"
+msgstr ""
+

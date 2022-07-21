@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:3
+msgid "MyST Markdown"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:17
+msgid "RestructuredText"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:30
+msgid "渲染结果"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:32
+msgid "What could be inside this warning?"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:35
+msgid "A whale of a joke!"
+msgstr ""
+
+#: ../../source/sptools/extend/example/tab/tab-code.rst:39
+msgid "(sorry)"
+msgstr ""
+

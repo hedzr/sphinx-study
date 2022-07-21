@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:18
+msgid "准备"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:18
+msgid "reStructureText 语法学习"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:18
+msgid "Markdown 支持"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:18
+msgid "配置"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:18
+msgid "HTML Theme"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:18
+msgid "Sphinx and reStructureText 笔记目录"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:30
+msgid "more examples"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:3
+msgid "Sphinx"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:5
+msgid ""
+"Sphinx 是一种文档工具，它可以令人轻松的撰写出清晰且优美的文档, 由 Georg Brandl 在BSD 许可证下开发. "
+"新版的Python文档 就是由Sphinx生成的， 并且它已成为Python项目首选的文档工具,同时它对 C/C++ 项目也有很好的支持; "
+"并计划对其它开发语言添加特殊支持. 本站当然也是使用 Sphinx 生成的，它采用reStructuredText! Sphinx还在继续开发."
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:10
+msgid "`Sphinx 的 4.1.2 版文档 (OSGeo) <https://www.osgeo.cn/sphinx/contents.html>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:11
+msgid ""
+"`Sphinx 的官方文档 （Created using Sphinx 5.0.0+） <https://www.sphinx-"
+"doc.org/zh_CN/master/index.html>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/sphinx-index.rst:15
+msgid "需要注意的是，在本篇章笔记中记录的知识部分语法；更多详细全面的语法请前往上文提供的官方文档中学习。"
+msgstr ""
+

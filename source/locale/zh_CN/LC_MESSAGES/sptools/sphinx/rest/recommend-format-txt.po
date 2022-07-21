@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/recommend-format-txt.rst:3
+msgid "文章类笔记推荐写法"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/recommend-format-txt.rst:10
+msgid "推荐文章写法的代码"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/recommend-format-txt.rst:12
+msgid "这是推荐文章写法的代码："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/recommend-format-txt.rst:19
+msgid "运行显示后的画面， `点击前往 <./recommend-format>`_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/recommend-format-txt.rst:22
+msgid "标题之间的分隔"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/recommend-format-txt.rst:25
+msgid ""
+"在此约定，无论标题形式如何，统计标题之间的分隔符长度相同，而不同级别之间的标题之间的分隔符的长度比例从大到小为 75% 、 50% 、 30% "
+"、15% 。（笔者认为一篇文章中除了主标题外，最好只出现最多三级标题，再多后边不利于编写和观看。）"
+msgstr ""
+

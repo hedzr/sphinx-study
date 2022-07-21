@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/grids.md:1
+msgid "网格"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:3
+msgid "有接触过前端的应当知道 Grid 网页布局，而 Sphinx Design 插件能够实现相同的效果。（所以它才能称之为响应式的 Web 组件）。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:5
+msgid "网格是基于12列系统，它可以适应观看屏幕的大小。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:7
+msgid ""
+"**网格指令可以设置默认列数(1到12);对所有屏幕尺寸使用单个数字，或对 extra-small(<576px)、 small (768px)、"
+" medium(992px)和 large screens(>1200px)使用四个数字，然后为每个项目设置子网格项指令。**"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:9
+msgid "网格有三种指令，分别为 `gird`、 `grid-item`、 `grid-item-card`。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:11
+msgid "gird option"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:4
+msgid "gutter"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:2
+msgid ""
+"Spacing between items. One or four integers (for “xs sm md lg”) between 0"
+" and 5."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:4
+msgid "间距的物品。0到5之间的一个或四个整数(对于“xs sm md lg”)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:9
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:9
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:9
+msgid "margin"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:7
+msgid ""
+"Outer margin of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:9
+msgid "网格的外缘。一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5、auto。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:14
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:14
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:14
+msgid "padding"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:12
+msgid ""
+"Inner padding of grid. One (all) or four (top bottom left right) values "
+"from: 0, 1, 2, 3, 4, 5."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:14
+msgid "网格的内填充。一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:29
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:19
+msgid "outline"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:17
+msgid "Create a border around the grid."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:19
+msgid "在网格周围创建一个边界。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:24
+msgid "reverse"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:22
+msgid "Reverse the order of the grid items."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:24
+msgid "颠倒网格项的顺序。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:29
+msgid "class-container"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:27
+msgid "Additional CSS classes for the grid container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:29
+msgid "网格容器元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:34
+msgid "class-row"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:32
+msgid "Additional CSS classes for the grid row element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-option.rst:34
+msgid "用于网格行元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:17
+msgid "grid-item option"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:4
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:4
+msgid "columns"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:2
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:2
+msgid ""
+"The number of columns (out of 12) a grid-item will take up. One or four "
+"integers (for “xs sm md lg”) between 1 and 12 (or auto to adapt to the "
+"content)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:4
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:4
+msgid "网格项所占的列数(12个列中)。1到12之间的一个或四个整数(对于“xs sm md lg”)(或自动以适应内容)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:7
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:7
+msgid ""
+"Outer margin of grid item. One (all) or four (top bottom left right) "
+"values from: 0, 1, 2, 3, 4, 5, auto."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:9
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:9
+msgid "网格项的外部边界。一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5、auto。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:12
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:12
+msgid ""
+"Inner padding of grid item. One (all) or four (top bottom left right) "
+"values from: 0, 1, 2, 3, 4, 5."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:14
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:14
+msgid "网格项的内部填充。一个(全部)或四个(上、下、左、右)值:0、1、2、3、4、5。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:19
+msgid "child-direction"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:17
+msgid "Direction of children in the grid item: column (default) or row."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:19
+msgid "网格项中的子元素方向:列(默认)或行。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:24
+msgid "child-align"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:22
+msgid ""
+"Alignment of children, along the child-direction: start (default), end, "
+"center, justify or spaced."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:24
+msgid "子元素沿子元素方向的对齐:开始(默认)、结束、居中、对齐或间隔。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:27
+msgid "Create a border around the grid item."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:29
+msgid "在网格项周围创建一个边框。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:34
+msgid "class"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:17
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:32
+msgid "Additional CSS classes for the grid item element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:19
+#: ../../source/sptools/extend/design/snippets/grid-item-option.rst:34
+msgid "网格项元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:23
+msgid "grid-item-card option"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/grid-item-card-option.rst:19
+msgid "class-item"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:29
+msgid "实例应用"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:31
+msgid "简单示例"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:37
+#: ../../source/sptools/extend/design/grids.md:70
+#: ../../source/sptools/extend/design/grids.md:97
+#: ../../source/sptools/extend/design/grids.md:108
+#: ../../source/sptools/extend/design/grids.md:139
+msgid "A"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:40
+#: ../../source/sptools/extend/design/grids.md:73
+#: ../../source/sptools/extend/design/grids.md:100
+#: ../../source/sptools/extend/design/grids.md:111
+#: ../../source/sptools/extend/design/grids.md:144
+msgid "B"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:43
+#: ../../source/sptools/extend/design/grids.md:149
+msgid "C"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:46
+msgid "D"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:65
+msgid "卡片网格的简单示例"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:91
+msgid "控制网格子项的间距"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:130
+msgid "网格子项级列宽度"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:132
+msgid ""
+"您可以使用grid-item指令的columns选项来覆盖单个条目所占的列数。假设总列为12，这意味着12表示一个条目占了整个网格行，即6 / "
+"2。或者，使用auto可以根据项目内容自动决定使用多少列。与网格列一样，对于小、中、大和超大屏幕，您可以提供单个数字，也可以提供4个数字。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/grids.md:168
+msgid ""
+"在此语法中，如果选项的值只接受一个，如果出现如 `:columns: 12 6 6 6` "
+"的情况，这是因为它可以根据屏幕的大小（四种屏幕）来调整占据的列数。"
+msgstr ""
+

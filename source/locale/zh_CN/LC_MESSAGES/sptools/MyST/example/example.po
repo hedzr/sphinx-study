@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/MyST/example/example.md:1
+msgid "Using `sphinx-thebe`"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:3
+msgid "Get started"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:5
+msgid ""
+"There are two steps to using `sphinx-thebe`. First, you must mark certain"
+" parts of your page as \"ready for thebe\". Next, you must insert a "
+"button onto the page to tell Thebe to initialize."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:9
+msgid "Using reStructuredText vs. MyST Markdown"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:11
+msgid ""
+"The examples on this page use **MyST Markdown syntax**, a form of "
+"markdown that works with Sphinx directives. You can also use "
+"reStructuredText if you wish. For information about reStructuredText vs. "
+"MyST Markdown, see [the MyST Parser documentation](https://myst-"
+"parser.readthedocs.io/en/latest/using/syntax.html) as well as "
+"[](examples/rst) for some tips."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:14
+msgid "Mark elements for thebe"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:16
+msgid ""
+"By default, thebe will be run on any elements in your documentation that "
+"contain the class `thebe` and that have a `<pre`> element underneath "
+"them."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:19
+msgid "You can add code blocks like so:"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:27
+msgid ""
+"By default, `sphinx-thebe` will look for any HTML `<pre>` element "
+"*inside* the code block. Thebe will run on that element."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:30
+msgid "Add an activate button to your page"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:32
+msgid ""
+"Next, insert an \"activate\" button in your documentation with the "
+"following directive:"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:40
+msgid "The button looks like this:"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:45
+msgid ""
+"Clicking this button will activate Thebe on the page. If you'd like to "
+"manually add your own button (e.g. with your own extension or theme), see"
+" [](add-custom-button)."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:49
+msgid ""
+"By default, `sphinx-thebe` will serve the Binder environment for the "
+"[jupyter-stacks-datascience repository](https://github.com/binder-"
+"examples/jupyter-stacks-datascience). See [](configure.md) for "
+"information on choosing your own environment."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:54
+msgid "What can I do with `sphinx-thebe`?"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:56
+msgid ""
+"`sphinx-thebe` uses Jupyter kernels to execute your page's code and "
+"return the results, and Binder in order to run the infrastructure for "
+"execution. This means that you can do nearly anything with `sphinx-thebe`"
+" that you could do from within a Jupyter Notebook cell."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:61
+msgid "You can customize your environment"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:64
+msgid ""
+"You can customize the environment that powers your interactive code "
+"sessions using a Binder repository. This may allow for different kinds of"
+" functionality depending on the libraries that are installed. See "
+"[](configure.md) for more information."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:69
+msgid "For example:"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:74
+msgid "Code outputs"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:85
+msgid "DataFrames"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:95
+msgid "PNG outputs"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:104
+msgid "Interactive outputs"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:106
+msgid ""
+"Interactive outputs work with `sphinx-thebe` **if their web dependencies "
+"are loaded**."
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:108
+msgid ""
+"Many interactive libraries assume that some javascript packages are pre-"
+"loaded in a notebook environment. For example, both Jupyter Lab and "
+"Notebook come bundled with `require.js`. To use visualization libraries "
+"that depend on this, **you must load these libraries on your own in "
+"Sphinx**. To do so, you can add the following to your `conf.py`:"
+msgstr ""
+
+#: ../../source/sptools/MyST/example/example.md:115
+msgid ""
+"Note that some visualization libraries output *bundles of "
+"JavaScript/HTML* that will work out-of-the-box. You should consult the "
+"documentation of the library you wish to use in order to figure out how "
+"to configure it properly. See [the `thebe` "
+"examples](https://thebe.readthedocs.io/en/latest/) for examples of some "
+"popular visualization libraries."
+msgstr ""
+

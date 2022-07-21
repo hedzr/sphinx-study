@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/tabs.md:1
+msgid "标签选项卡"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:3
+msgid "选项卡组织并允许在相同层次结构的相关内容组之间进行导航。每个选项卡应该包含与集合中其他选项卡不同的内容。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md
+msgid "Label1"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:9
+#: ../../source/sptools/extend/design/tabs.md:41
+#: ../../source/sptools/extend/design/tabs.md:57
+#: ../../source/sptools/extend/design/tabs.md:136
+#: ../../source/sptools/extend/design/tabs.md:162
+#: ../../source/sptools/extend/design/tabs.md:183
+msgid "Content 1"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md
+msgid "Label2"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:13
+#: ../../source/sptools/extend/design/tabs.md:47
+#: ../../source/sptools/extend/design/tabs.md:63
+#: ../../source/sptools/extend/design/tabs.md:142
+#: ../../source/sptools/extend/design/tabs.md:168
+#: ../../source/sptools/extend/design/tabs.md:189
+msgid "Content 2"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:31
+msgid "同步选项卡"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:33
+msgid "使用 `sync` 选项来跨多个选项卡集同步选中的选项卡项。注意，同步需要启用JavaScript。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:81
+msgid "选项卡式的代码示例"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:83
+msgid ""
+"The `tab-set-code` directive provides a shorthand for synced code "
+"examples. You can place any directives in a `tab-set-code` that produce a"
+" `literal_block` node with a `language` attribute, for example `code`, "
+"`code-block` and `literalinclude`. Tabs will be labelled and synchronised"
+" by the `language` attribute (in upper-case)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:87
+msgid ""
+"`tab-set-code`指令为同步代码示例提供了一种简写方式。你可以在 `tab-set-code` "
+"中放置任何指令，从而产生带有`language`属性的`literal_block`节点，例如 `code` ， `code-block` "
+"和`literalinclude`。标签将被标记并通过`language`属性(大写)进行同步。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md
+msgid "Markdown"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md
+msgid "RST"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:121
+msgid "其他组件中的选项卡"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:123
+msgid ""
+"Tabs can be nested inside other components, such as inside "
+"[dropdowns](./dropdowns.md) or within [grid items](./grids.md)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md
+msgid "Tabs in dropdown"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:128
+msgid "Paragraph"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:154
+msgid "Initial paragraph"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:193
+msgid "Ending paragraph"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:197
+msgid "`tab-set` options"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-set-option.rst:4
+msgid "class"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:17
+#: ../../source/sptools/extend/design/snippets/tab-set-option.rst:2
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:19
+#: ../../source/sptools/extend/design/snippets/tab-set-option.rst:4
+msgid "容器元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/tabs.md:204
+msgid "`tab-item` options"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:4
+msgid "selected"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:2
+msgid "a flag indicating whether the tab should be selected by default."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:4
+msgid "指示默认情况下是否应该选择选项卡的标志。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:9
+msgid "sync"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:7
+msgid "A key that is used to sync the selected tab across multiple tab-sets."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:9
+msgid "用于跨多个选项卡集同步所选选项卡的键。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:14
+msgid "name"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:12
+msgid "Set a reference-able name for the dropdown container."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:14
+msgid "为下拉容器设置一个可引用的名称。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:19
+msgid "class-container"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:24
+msgid "class-label"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:22
+msgid "Additional CSS classes for the label element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:24
+msgid "label元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:29
+msgid "class-content"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:27
+msgid "Additional CSS classes for the content element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/tab-item-option.rst:29
+msgid "内容content元素的其他CSS类。"
+msgstr ""
+

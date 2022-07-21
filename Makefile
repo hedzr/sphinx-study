@@ -33,6 +33,16 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-autobuild: clean
-	sphinx-autobuild source build/html --open-browser --port=2901
+autobuild:
+	sphinx-autobuild "$(SOURCEDIR)" "$(BUILDDIR)" --open-browser --port=2901
+
+po: gettext
+	which sphinx-intl || pip3 install sphinx-intl
+	sphinx-intl update -p build/gettext -l zh_CN # -l ja
+
+zh: po
+	$(SPHINXBUILD) -b html -D language=zh_CN "$(SOURCEDIR)" "$(BUILDDIR)/html.zh_CN" $(SPHINXOPTS) # --open-browser --port=2902
+
+zh-auto: po
+	sphinx-autobuild -D language=zh_CN "$(SOURCEDIR)" "$(BUILDDIR)/html.zh_CN" $(SPHINXOPTS) --open-browser --port=2902
 

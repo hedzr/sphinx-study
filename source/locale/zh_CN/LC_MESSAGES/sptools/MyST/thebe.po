@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/MyST/thebe.md:69
+msgid "在md文件中使用thebe示例1"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:69
+msgid "在md文件中使用thebe示例2"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:69
+msgid "在rst文件中使用thebe"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:69
+msgid "交互式代码thebe文档实例"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:2
+msgid "Sphinx thebe"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:4
+msgid ""
+"使您的代码单元与 [Thebe](http://thebelab.readthedocs.org/) 和 "
+"[Binder](https://mybinder.org) 提供的内核进行交互。"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:6
+msgid "例如，单击下面的按钮。请注意，下面的代码块变为可编辑和可运行的！（由于网络问题，运行按钮可能会显示失败）"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:18
+msgid "上方实例的源码"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:31
+msgid "配置运行环境"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:33
+msgid "To install `sphinx-thebe` :"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:39
+msgid "Then, add it to your Sphinx site’s `conf.py` file:"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:56
+msgid "在这里，笔者只是简单的提供一个关于实现交互式笔记的思路，更多关于 `thebe` 的信息前往其官方文档:"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:58
+msgid "[sphinx-thebe文档](https://sphinx-thebe.readthedocs.io/en/latest/use.html)"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:59
+msgid "[thebe 文档](https://thebe.readthedocs.io/en/latest/index.html)"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:60
+msgid ""
+"`thebe` 依靠于 `myst_nb` 解析；[MyST-NB 文档](https://myst-"
+"nb.readthedocs.io/en/latest/)"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:62
+msgid ""
+"不过笔者现阶段不推荐使用 MyST Markdown 语法编写交互式笔记，如果读者有相关需要，那么推荐更加成熟的交互式笔记方案—— Jupyter"
+" Notebook 。`myst_nb` 能够解析 Jupyter Notebook(以`.ipynb`结尾)。"
+msgstr ""
+
+#: ../../source/sptools/MyST/thebe.md:66
+msgid ""
+"默认情况下，`sphinx-thebe` 将为 [jupyter-stacks-datascience](https://github.com"
+"/binder-examples/jupyter-stacks-datascience) 存储库提供 Binder 环境 "
+"。但是需要注意的是，这个是一个实验性的存储库，所以这并不是一个成熟的笔记方案。"
+msgstr ""
+

@@ -1,0 +1,634 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/styling.md:1
+msgid "样式"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:3
+msgid "CSS Variables"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:5
+msgid ""
+"All colors used by sphinx-design are defined as [CSS "
+"variables](https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/Using_CSS_custom_properties). Therefore they can be "
+"overriden by adding a `.css` file in a `_static` folder in your projects "
+"source folder (see [the sphinx documentation](https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-html_css_files)):"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:13
+msgid ""
+"For colors, there are nine semantic colors that can be defined. For each "
+"of these colors you should define:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:16
+msgid "`--sd-color-{name}` as the actual color"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:17
+#, python-format
+msgid ""
+"`--sd-color-{name}-highlight` as the color used when the component is "
+"highlighted (e.g. if hovering over a button). By default, this is a 15% "
+"darker version of the original color."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:19
+msgid ""
+"`--sd-color-{name}-text` as the color to use for text displayed on top of"
+" the color. By default, this is dark grey for light colors and white for "
+"dark colors."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:22
+msgid "The defaults are:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:72
+msgid "CSS Classes"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:74
+msgid ""
+"For most roles/directive, it is preferentially recommended to use the "
+"available options to style components since, for example, this allows for"
+" better cross-output-format styling."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:76
+msgid ""
+"But for custom cases, these roles/directives also provide `class` options"
+" for adding CSS classes directly to element, or you can directly use the "
+"`div` directive. All CSS classes that are part of sphinx-design are "
+"prefixed with `sd-`."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:80
+msgid "Some CSS styled text"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md
+msgid "Syntax"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:97
+msgid ""
+"If you find yourself using a class(es) often, consider opening an issue "
+"to request a new role/directive or option!"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:99
+msgid ""
+"The `div` directive also has the `style` option, which allows you to add "
+"inline CSS styles, although it is not recommended to use this option for "
+"most cases."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:101
+msgid "Text"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:103
+msgid "Classes are available for styling and alignment:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:105
+msgid "Alignment:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:106
+msgid "`sd-text-justify`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:107
+msgid "`sd-text-left`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:108
+msgid "`sd-text-right`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:109
+msgid "`sd-text-center`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:110
+msgid "Size (size decreases from 1 to 6):"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:111
+msgid "`sd-fs-1`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:112
+msgid "`sd-fs-2`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:113
+msgid "`sd-fs-3`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:114
+msgid "`sd-fs-4`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:115
+msgid "`sd-fs-5`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:116
+msgid "`sd-fs-6`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:117
+msgid "Weight:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:118
+msgid "`sd-font-weight-light`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:119
+msgid "`sd-font-weight-lighter`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:120
+msgid "`sd-font-weight-normal`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:121
+msgid "`sd-font-weight-bold`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:122
+msgid "`sd-font-weight-bolder`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:123
+msgid "Style"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:124
+msgid "`sd-font-italic`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:125
+msgid "`sd-text-decoration-none`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:126
+msgid "`sd-text-lowercase`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:127
+msgid "`sd-text-uppercase`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:128
+msgid "`sd-text-capitalize`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:129
+msgid "Wrapping"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:130
+msgid "`sd-text-wrap`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:131
+msgid "`sd-text-nowrap`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:132
+msgid "`sd-text-truncate` (requires `display: inline-block` or `display: block`)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:133
+msgid "Color"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:134
+msgid ""
+"`sd-text-{semantic color name}` (uses `--sd-color-{semantic color name}` "
+"CSS variable)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:135
+msgid ""
+"`sd-bg-text-{semantic color name}` (uses `--sd-color-{semantic color "
+"name}-text` CSS variable)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:137
+msgid "Display"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:139
+msgid ""
+"Define the layout of an element and its children (see "
+"[`display`](https://developer.mozilla.org/en-US/docs/Web/CSS/display)):"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:141
+msgid "`sd-d-none`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:142
+msgid "`sd-d-inline`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:143
+msgid "`sd-d-inline-block`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:144
+msgid "`sd-d-block`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:145
+msgid "`sd-d-grid`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:146
+msgid "`sd-d-flex-row` (align items horizontally)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:147
+msgid "`sd-d-flex-column` (align items vertically)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:148
+msgid "`sd-d-inline-flex`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:150
+msgid ""
+"Variants are also available for screen-sizes (xs, sm, md, lg), e.g. `sd-d"
+"-sm-none`."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:152
+msgid ""
+"Items within a flex box can also be aligned along the major axis or minor"
+" axis, dependant on the flex-direction. For example, using `sd-d-flex-"
+"column` and `sd-align-major-center` will center the items in the vertical"
+" direction."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:155
+msgid "`sd-align-major-start`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:156
+msgid "`sd-align-major-end`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:157
+msgid "`sd-align-major-center`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:158
+msgid "`sd-align-major-spaced` (spaced to fill the full axis)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:159
+msgid ""
+"`sd-align-major-justify` (spaced to fill the full axis, with the "
+"first/last item on the edges of the axis)"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:161
+msgid "`sd-align-minor-start`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:162
+msgid "`sd-align-minor-end`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:163
+msgid "`sd-align-minor-center`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:165
+msgid ""
+"For more information, see [this guide to flexbox](https://css-"
+"tricks.com/snippets/css/a-guide-to-flexbox/)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:167
+msgid "Sizing"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:169
+msgid "Size objects width/height by percentage:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:171
+msgid "`sd-width-25`, `sd-height-25`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:172
+msgid "`sd-width-50`, `sd-height-50`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:173
+msgid "`sd-width-75`, `sd-height-75`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:174
+msgid "`sd-width-100`, `sd-height-100`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:175
+msgid "`sd-width-auto`, `sd-height-auto`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:177
+msgid "Spacing"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:179
+msgid ""
+"Padding (`p`) and margins (`m`) can be controlled with these classes for;"
+" (`t`)op, (`r`)ight, (`b`)ottom, (`l`)eft, `x` (left and right), and `y` "
+"(top and bottom)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:181
+msgid ""
+"Spacing are defined on a scale of 0 to 5, for example `sd-px-1` or `sd-"
+"mt-5`."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:183
+msgid ""
+"Note, for grids the special gutter classes `sd-g-{screen-size}-{spacing}`"
+" are used to set margins, or for only `x`/`y`; `sd-gx-{screen-"
+"size}-{spacing}`."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:185
+msgid "Colors"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:187
+msgid ""
+"Colors can be set using CSS variable, they are defined for the semantic "
+"color names: `primary`, `secondary`, `success`, `warning`, `danger`, "
+"`info`, `light`, `dark`, and `muted`, and specific colors `black` and "
+"`white`."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:189
+msgid "`sd-bg-{name}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:190
+msgid "`sd-bg-text-{name}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:191
+msgid "`sd-text-{name}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:192
+msgid "`sd-outline-{name}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:194
+msgid "Additional transparent colouring:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:196
+msgid "`sd-bg-transparent`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:197
+msgid "`sd-outline-transparent`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:198
+msgid "`sd-text-transparent`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:200
+msgid "Borders"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:202
+msgid ""
+"Borders can be applied to elements of thickness 0 to 5, for all are a "
+"specific side:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:204
+msgid "`sd-border-{thickness}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:205
+msgid "`sd-border-top-{thickness}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:206
+msgid "`sd-border-bottom-{thickness}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:207
+msgid "`sd-border-right-{thickness}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:208
+msgid "`sd-border-left-{thickness}`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:217
+msgid "`sd-border-0`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:223
+msgid "`sd-border-1`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:229
+msgid "`sd-border-2`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:235
+msgid "`sd-border-3`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:241
+msgid "`sd-border-4`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:247
+msgid "`sd-border-5`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:251
+msgid "Border can be rounded by different amounts using:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:253
+#: ../../source/sptools/extend/design/styling.md:267
+msgid "`sd-rounded-0`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:254
+#: ../../source/sptools/extend/design/styling.md:273
+msgid "`sd-rounded-1`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:255
+#: ../../source/sptools/extend/design/styling.md:279
+msgid "`sd-rounded-2`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:256
+#: ../../source/sptools/extend/design/styling.md:285
+msgid "`sd-rounded-3`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:257
+#: ../../source/sptools/extend/design/styling.md:291
+msgid "`sd-rounded-pill`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:258
+#: ../../source/sptools/extend/design/styling.md:297
+msgid "`sd-rounded-circle`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:301
+msgid "Shadows"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:303
+msgid ""
+"Shadows can be applied to box elements (the color of the shadow is "
+"defined using `--sd-color-shadow` CSS variable):"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:305
+#: ../../source/sptools/extend/design/styling.md:316
+msgid "`sd-shadow-none`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:306
+#: ../../source/sptools/extend/design/styling.md:321
+msgid "`sd-shadow-sm`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:307
+#: ../../source/sptools/extend/design/styling.md:326
+msgid "`sd-shadow-md`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:308
+#: ../../source/sptools/extend/design/styling.md:331
+msgid "`sd-shadow-lg`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:335
+msgid "Avatars"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:337
+msgid ""
+"Avatars can represent a user or a brand,with a logo or branded graphic "
+"([see Material Design "
+"imagery](https://material.io/design/communication/imagery.html"
+"#informational-imagery))."
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:339
+msgid "These classes center an image, set their size and add a circular crop:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:341
+msgid "`sd-avatar-xs`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:342
+msgid "`sd-avatar-sm`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:343
+msgid "`sd-avatar-md`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:344
+msgid "`sd-avatar-lg`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:345
+msgid "`sd-avatar-xl`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:346
+msgid "`sd-avatar-inherit`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:347
+msgid "`sd-avatar-initial`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:369
+msgid "Load Animations"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:371
+msgid ""
+"Add CSS animations when loading elements using the `sd-animate-{name}` "
+"classes:"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:373
+msgid "`sd-animate-slide-from-left`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:374
+msgid "`sd-animate-slide-from-right`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:375
+msgid "`sd-animate-grow100`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:376
+msgid "`sd-animate-grow50`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:377
+msgid "`sd-animate-grow50-rot20`"
+msgstr ""
+
+#: ../../source/sptools/extend/design/styling.md:379
+msgid ""
+"See [uxdesign.cc](https://uxdesign.cc/the-ultimate-guide-to-proper-use-"
+"of-animation-in-ux-10bd98614fa9) and "
+"[material.io](https://material.io/design/motion/understanding-motion.html"
+"#user-education) for good guides to animation."
+msgstr ""
+

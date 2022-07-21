@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/basic.rst:3
+msgid "基础杂糅知识"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:6
+msgid "字段列表"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:8
+msgid "通常在文章的名词解释中使用。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:11
+msgid "字段列表 example"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst
+msgid "fieldname"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:13
+msgid "Field content"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst
+msgid "othername"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:15
+msgid "othername field content"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:31
+msgid "文字块 ``::``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:33
+msgid "文字代码块 (ref）以特殊标记结束段落 :: . 文本块必须缩进（和所有段落一样，用空行与周围段落分隔）：："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:35
+msgid "处理 :: 标记很智能："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:37
+msgid "如果它是以自己的段落出现的，则该段落完全不在文档中。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:38
+msgid "如果前面有空白，则删除标记。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:39
+msgid "如果前面有非空白，则标记将被单个冒号替换。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:43
+msgid "文字块 example"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:45
+msgid "This is a normal text paragraph. The next paragraph is a code sample::"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:52
+msgid "This is a normal text paragraph again."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:58
+msgid "上文的语法格式如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:73
+msgid "注释"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:89
+msgid "脚注/尾注"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:91
+msgid "使用 ``[#name]_`` 标记脚注位置，并将脚注正文添加到文档底部的“footnotes”标题后面，"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:108
+msgid "运行效果如下方所示。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:115
+msgid "自动脚注 : 脚注参考 [#]_ ，这是第二个脚注 [#]_ 。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:117
+msgid "脚注参考 [5]_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:123
+msgid "这是第一个注记的信息"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:124
+msgid "这是第二个注记的信息"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:125
+msgid "这是对应的注记信息"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:129
+msgid "索引"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:132
+msgid "超链接"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:137
+msgid ":ref:`python <Python-a>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:139
+msgid "```Title <http://link>`_``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:140
+msgid "``.. _Python: http://www.python.org``"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:151
+msgid "文档内部链接（锚）"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:153
+msgid "在这里，只介绍其中一种方法,那就就是直接添加到标题前。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:165
+msgid "|50|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:168
+msgid "列表"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:171
+msgid "单级符号列表"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:173
+msgid "列表的使用比较简单，而且可使用的符号也有多种选择："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:175
+#: ../../source/sptools/sphinx/rest/basic.rst:178
+#: ../../source/sptools/sphinx/rest/basic.rst:223
+#: ../../source/sptools/sphinx/rest/basic.rst:225
+msgid "This is a bulleted list."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:176
+#: ../../source/sptools/sphinx/rest/basic.rst:179
+#: ../../source/sptools/sphinx/rest/basic.rst:226
+msgid "It has two items, the second item uses two lines."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:181
+#: ../../source/sptools/sphinx/rest/basic.rst:184
+#: ../../source/sptools/sphinx/rest/basic.rst:187
+msgid "This is a numbered list."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:182
+#: ../../source/sptools/sphinx/rest/basic.rst:185
+#: ../../source/sptools/sphinx/rest/basic.rst:188
+msgid "It has two items too."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:191
+msgid "单级符号列表的源码"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:209
+#: ../../source/sptools/sphinx/rest/basic.rst:254
+#: ../../source/sptools/sphinx/rest/basic.rst:283
+#: ../../source/sptools/sphinx/rest/basic.rst:312
+msgid "|30|"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:212
+msgid "两级符号列表 [#]_"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:214
+msgid "也可以嵌套列表，但注意它们必须通过空行与父列表项分开:"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:216
+msgid "this is"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:217
+msgid "a list"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:219
+msgid "with a nested list"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:220
+msgid "and some subitems"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:222
+msgid "and here the parent list continues"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:228
+msgid "第一级列表第一句"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:230
+msgid "这是两级列表第一句"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:231
+msgid "两级列表第二句"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:234
+msgid "嵌套列表的源码表示"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:257
+#: ../../source/sptools/sphinx/rest/basic.rst:272
+msgid "定义列表"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:260
+msgid "请注意，一个术语可以有很多段，段与段之间用空行分隔，但一段只能有一行文本。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:262
+msgid "引用的段落只是通过缩进它们来创建，而不是根据周围的段落创建。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:267
+#: ../../source/sptools/sphinx/rest/basic.rst:293
+msgid "定义列表 term (up to a line of text)"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:265
+#: ../../source/sptools/sphinx/rest/basic.rst:292
+msgid "Definition of the term, which must be indented"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:267
+#: ../../source/sptools/sphinx/rest/basic.rst:293
+msgid "and can even consist of multiple paragraphs"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:270
+#: ../../source/sptools/sphinx/rest/basic.rst:296
+msgid "定义列表 next term"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:270
+#: ../../source/sptools/sphinx/rest/basic.rst:296
+msgid "Description."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:286
+msgid "定义列表与两级符号列表的使用"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:288
+msgid ""
+"我们通过比较定义列表与符号列表可以发现，在两级列表的表示情况下，显然是定义列表的显示比较友好，因为其一级列表有字体加重；而如果两级符号列表想要达到类似的效果则需要手动添加字体加重。"
+" 而将两者混合使用即可："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:298
+msgid "定义列表与两级符号列表混合使用"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:310
+msgid "带有数字标号的列表在与定义列表混合时会出现问题。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:317
+msgid "field lists"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:319
+msgid "字段列表与定义列表相似。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst
+msgid "Hello"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:321
+msgid ""
+"This field has a short field name, so aligning the field body with the "
+"first line is feasible."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst
+msgid "Number-of-African-swallows-required-to-carry-a-coconut"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:324
+msgid ""
+"It would be very difficult to align the field body with the left edge of "
+"the first line.  It may even be preferable not to begin the body on the "
+"same line as the marker."
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:330
+msgid "field lists 示例源码"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/basic.rst:347
+msgid "一般来说，两级列表足以应付多数情况，而且也不推荐使用两级以上的列表。"
+msgstr ""
+

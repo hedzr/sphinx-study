@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:4
+msgid "avatar"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:2
+msgid ""
+"A URI (relative file path or URL) to an image for use as the avatar (a "
+"user portrait, logo or branded graphic)."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:4
+msgid "用于作为头像(用户肖像、标识或品牌图形)的图像的URI(相对文件路径或URL)。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:9
+msgid "avatar-alt"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:7
+msgid "Alternative text for the avatar."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:9
+msgid "头像的替代文本。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:14
+msgid "avatar-link"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:12
+msgid "A URL to link to if the avatar icon is clicked."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:14
+msgid "如果单击头像图标，则要链接到的URL。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:19
+msgid "avatar-outline"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:17
+msgid "A semantic color to use for the outline of the avatar."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:19
+msgid "用于头像轮廓的语义颜色。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:24
+msgid "author"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:22
+msgid "Text to display in the author of of the article."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:24
+msgid "文本显示在文章的作者。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:29
+msgid "date"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:27
+msgid "Text to display in the date of the article."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:29
+msgid "文本显示在文章的日期。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:34
+msgid "read-time"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:32
+msgid "Text to indicate the time to read the article."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:34
+msgid "文本表示阅读文章的时间。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:39
+msgid "class-container"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:37
+msgid "Additional CSS classes for the container element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:39
+msgid "容器元素的其他CSS类。"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:43
+msgid "class-avatar"
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:42
+msgid "Additional CSS classes for the avatar element."
+msgstr ""
+
+#: ../../source/sptools/extend/design/snippets/article-info-option.rst:44
+msgid "头像的其他CSS类。"
+msgstr ""
+

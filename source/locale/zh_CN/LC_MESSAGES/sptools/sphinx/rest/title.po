@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, hedzr
+# This file is distributed under the same license as the HZNB package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HZNB 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 13:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/sptools/sphinx/rest/title.rst:3
+msgid "标题学习"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:5
+msgid "章节的标题在双上划线符号之间（或为下划线）,并且符号的长度不能小于文本的长度。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:7
+msgid "通常没有专门的符号表示标题的等级，但是对于Python 文档，可以这样认为:"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:9
+msgid "# 及上划线表示部分"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:10
+msgid "及上划线表示章节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:11
+msgid "=, 小章节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:12
+msgid "-, 子章节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:13
+msgid "^, 子章节的子章节"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:14
+msgid "\", 段落"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:17
+msgid "因为rest对标题的分级没有详细描述，我们通过下方的标题的划分为参考规则。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:44
+msgid ":ref:`点击前往上方代码的运行结果界面 <title1>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:49
+msgid ""
+"需要注意的是，该标签分级不是固定的。标题的优先级与其出现的先后有关。即运行下方的代码的效果也是一样的。 :ref:`点击前往下方代码运行结果界面 "
+"<title4>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:74
+msgid ""
+"以笔者常用的子章节和小章节的符号举例：对于 **同一种类型符号** 的双线以及单线标题，只要是其中双线先于单线出现，那么该先出现的 "
+"**该类型的** 双线标题的优先级高于单线的标题，且该优先级会影响该文件全局；反之也一样。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:76
+msgid "标题学习2部分代码如下："
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:94
+msgid "**直接对比标题学习1以及标题学习2的代码以及运行结果会更加明了**。"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:96
+msgid ":ref:`点击前往标题学习2的运行界面 <title2>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:102
+msgid "推荐标题分级"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:122
+msgid ":ref:`点击前往运行界面 <title3>`"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:126
+msgid "title-directive / title指令"
+msgstr ""
+
+#: ../../source/sptools/sphinx/rest/title.rst:128
+msgid ""
+"\"title\"指令将文档标题指定为元数据，它不会成为文档主体的一部分。 **它覆盖文档提供的文档标题和“title”配置设置。** "
+"例如，在HTML输出中，元数据文档标题出现在浏览器窗口的标题栏中。"
+msgstr ""
+
