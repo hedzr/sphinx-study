@@ -378,22 +378,25 @@ import subprocess, os
 
 
 def configureDoxyfile(base_dir, proj_dir, input_dir, output_dir):
-    with open(base_dir + '/Doxyfile.in', 'r') as file:
-        filedata = file.read()
+    f = base_dir + '/Doxyfile.in'
+    if os.path.isfile(f):
+        with open(f, 'r') as file:
+            filedata = file.read()
 
-    filedata = filedata.replace('@DOXYGEN_INPUT_DIR@', input_dir)
-    filedata = filedata.replace('@DOXYGEN_OUTPUT_DIR@', output_dir)
+            filedata = filedata.replace('@DOXYGEN_INPUT_DIR@', input_dir)
+            filedata = filedata.replace('@DOXYGEN_OUTPUT_DIR@', output_dir)
 
-    filedata = filedata.replace('@PROJECT_NAME@', project)
-    filedata = filedata.replace('@PROJECT_VERSION@', version)
-    filedata = filedata.replace('@PROJECT_BRIEF@', brief)
-    filedata = filedata.replace('@PROJECT_LOGO@', 'logo-wide.svg')
-    filedata = filedata.replace('@CMAKE_CURRENT_SOURCE_DIR@', '..')
-    filedata = filedata.replace('@PROJECT_SOURCE_DIR@', '../..')
-    filedata = filedata.replace('@CMAKE_CURRENT_SOURCE_DIR_LINUX@', '..')
+            filedata = filedata.replace('@PROJECT_NAME@', project)
+            filedata = filedata.replace('@PROJECT_VERSION@', version)
+            filedata = filedata.replace('@PROJECT_BRIEF@', brief)
+            filedata = filedata.replace('@PROJECT_LOGO@', 'logo-wide.svg')
+            filedata = filedata.replace('@CMAKE_CURRENT_SOURCE_DIR@', '..')
+            filedata = filedata.replace('@PROJECT_SOURCE_DIR@', '../..')
+            filedata = filedata.replace('@CMAKE_CURRENT_SOURCE_DIR_LINUX@',
+                                        '..')
 
-    with open(proj_dir + '/Doxyfile', 'w') as file:
-        file.write(filedata)
+            with open(proj_dir + '/Doxyfile', 'w') as file:
+                file.write(filedata)
 
 
 # Check if we're running on Read the Docs' servers
