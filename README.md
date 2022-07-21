@@ -1,4 +1,15 @@
-# Build
+# sphinx study
+
+
+[![Documentation Status](https://readthedocs.org/projects/hz-sphinx-study/badge/?version=latest)](https://hz-sphinx-study.readthedocs.io/en/latest/?badge=latest)
+
+
+a notebook for studying sphinx documenter.
+
+
+
+
+## Build
 
 The following command will install the packages according to the configuration file requirements.txt.
 
