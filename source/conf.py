@@ -331,18 +331,18 @@ myst_dmath_double_inline = True
 
 # substitution 的扩展的全局替换，作用于 .md
 myst_substitutions = {
-    #     "Sphinx": "4.3.2",
-    #     "sphinx_autobuild": "2021.3.14",
-    #     "sphinx_book_theme": "0.1.7",
-    #     "myst_parser": "0.15.2",
+    "sphinx": "4.3.2",
+    "sphinx_autobuild": "2021.3.14",
+    "sphinx_book_theme": "0.1.7",
+    "myst_parser": "0.15.2",
     "myst_nb_version": myst_nb_version,
-    #     "Markdown": "3.3.4",
-    #     "markdown_it_py": "1.1.0",
-    #     "sphinx_tabs": "3.2.0",
-    #     "sphinx_thebe": "0.0.10",
-    #     "sphinx_togglebutton": "0.2.3",
-    #     "sphinx_design": "0.0.13",
-    #     "sphinx_copybutton": "0.4.0",
+    "markdown": "3.3.4",
+    "markdown_it_py": "1.1.0",
+    "sphinx_tabs": "3.2.0",
+    "sphinx_thebe": "0.0.10",
+    "sphinx_togglebutton": "0.2.3",
+    "sphinx_design": "0.0.13",
+    "sphinx_copybutton": "0.4.0",
 }
 # default is ['{', '}']，替换指令分隔符，不建议更改
 # myst_sub_delimiters = ["|", "|"]
@@ -401,6 +401,23 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 # read_the_docs_build = True
 breathe_projects = {}
 
+if read_the_docs_build:
+    base_dir = '../..'
+    proj_dir = base_dir + '/doxygen'
+    input_dir = '..'
+    output_dir = input_dir + '/build'
+    configureDoxyfile(base_dir, proj_dir, input_dir, output_dir)
+
+    subprocess.call('doxygen', cwd=proj_dir, shell=True)
+    breathe_projects[project] = '../' + output_dir + '/xml'
+    breathe_default_project = project
+else:
+    dir = '../../build/xml'
+    if os.path.isdir(dir) and os.path.isfile(dir + '/namespacecmdr.xml'):
+        breathe_projects[project] = dir
+        breathe_default_project = project
+
+#
 # -- Options for More output ---------------------------------------------
 
 # autodoc_default_options = {
@@ -602,23 +619,3 @@ def setup(app):
     # app.add_directive("myst-config", MystConfigDirective)
     # app.add_directive("docutils-cli-help", DocutilsCliHelpDirective)
     # app.add_directive("doc-directive", DirectiveDoc)
-
-
-if read_the_docs_build:
-    base_dir = '../..'
-    proj_dir = base_dir + '/doxygen'
-    input_dir = '..'
-    output_dir = input_dir + '/build'
-    configureDoxyfile(base_dir, proj_dir, input_dir, output_dir)
-
-    subprocess.call('doxygen', cwd=proj_dir, shell=True)
-    breathe_projects[project] = '../' + output_dir + '/xml'
-    breathe_default_project = project
-else:
-    dir = '../../build/xml'
-    if os.path.isdir(dir) and os.path.isfile(dir + '/namespacecmdr.xml'):
-        breathe_projects[project] = dir
-        breathe_default_project = project
-
-# breathe_projects = {"cmdr-cxx": "../build/xml/"}
-# breathe_default_project = "cmdr-cxx"

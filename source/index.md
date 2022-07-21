@@ -64,12 +64,10 @@ MyST-NB <sptools/MyST-NB/MyST-NB>
 * :ref:`search`
 ```
 
----
-
 
   
 
----
+
 
 [cmdr*-go*]: https://github.com/hedzr/cmdr/
 [cmdr*-cs*]: https://github.com/hedzr/Cmdr.Core/

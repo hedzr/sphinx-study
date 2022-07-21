@@ -9,7 +9,7 @@ HTML Theme
 
 .. note:: 
 
-    可以前往 :ref:`Sphinx Theme 官网 <https://sphinx-themes.org/>` 查看 Sphinx 支持的所有的主题. 
+    可以前往 [Sphinx Theme 官网](https://sphinx-themes.org/) 查看 Sphinx 支持的所有的主题. 
 
 .. important:: 
 
