@@ -1,0 +1,51 @@
+/** Add a counter before subsections 
+
+.content-container:not(:has(+ span.section-number))
+
+**/
+h1 {
+    counter-reset: subsection;
+    text-decoration: underline;
+}
+h2 {
+    counter-reset: subsubsection;
+}
+h2::before {
+    counter-increment: subsection;
+    content: counter(subsection) ". ";
+}
+h3::before {
+    counter-increment: subsubsection;
+    content: counter(subsection) "." counter(subsubsection) ". ";
+}
+
+.content-container:not(:has(span.section-number)) {
+    font-weight: bold;
+}
+
+.content-container:has(span.section-number) {
+    font-weight: lighter;
+}
+
+
+/** No icon for admonitions with no-icon class */
+.admonition > .admonition-title, div.admonition.no-icon > .admonition-title::before {
+    content: "";
+}
+.admonition > .admonition-title, div.admonition.no-icon > .admonition-title {
+    padding-left: .6rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.toctree-wrapper ul li {
+    margin-left: -8px;
+    text-indent: 16px;
+}
+
+.toctree-wrapper ul li ul li {
+    margin-left: -24px;
+    text-indent: 0px;
+}

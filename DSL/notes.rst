@@ -1,0 +1,8 @@
+Notes
+=====
+
+Hello
+
+```{toctree}
+:hidden:
+```
