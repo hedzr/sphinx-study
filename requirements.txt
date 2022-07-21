@@ -5,6 +5,7 @@ sphinx-tabs>=3.1.0
 
 sphinx-autobuild
 sphinx-togglebutton
+sphinx_copybutton
 sphinx_design
 sphinxext.rediraffe
 sphinxcontrib.mermaid
