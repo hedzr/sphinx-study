@@ -58,8 +58,8 @@ release = '0.1.1'
 
 brief = u'cmdr-cxx is a POSIX-compliant command-line arguments parser in C++, its part of cmdr series.'
 
-github_url = 'https://github.com/hedzr/cmdr-cxx'
-github_doc_root = 'https://github.com/hedzr/cmdr-cxx/tree/master/docs/manual/'
+github_url = 'https://github.com/hedzr/sphinx-study'
+github_doc_root = 'https://github.com/hedzr/sphinx-study/tree/master/source/'
 
 # The master toctree document.
 master_doc = 'index'
@@ -130,11 +130,8 @@ source_encoding = 'utf-8-sig'
 
 # imgmath_image_format = 'svg'
 imgmath_image_format = 'svg'
-
 imgmath_latex = 'xelatex'
-
 imgmath_latex_args = ['--no-pdf']
-
 imgmath_latex_preamble = '\\usepackage{unicode-math}\\setmathfont{XITS Math}'
 
 # -- Options for HTML output -------------------------------------------------
@@ -161,7 +158,7 @@ html_theme_options = {
     "github_url": github_url,
     "repository_url": github_url,
     "repository_branch": "master",
-    "path_to_docs": ".",
+    "path_to_docs": "./source",
     "use_repository_button": True,
     "use_edit_page_button": True,
 
