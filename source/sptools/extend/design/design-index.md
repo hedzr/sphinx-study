@@ -56,7 +56,6 @@ sd_hide_title: true
 ::::
 
 ```{toctree}
-:numbered:
 :maxdepth: 2
 
 网格 —— grid <grids>

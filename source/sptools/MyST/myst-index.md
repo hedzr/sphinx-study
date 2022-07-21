@@ -50,7 +50,6 @@ MyST 向 CommonMark 添加了几个新的语法选项，以便与 Sphinx 一起�
 
 ```{toctree}
 :caption: MyST 语法学习
-:numbered:
 
 入门 MyST <./start>
 MyST 语法指南 <./syntax-guide>

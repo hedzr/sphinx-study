@@ -26,3 +26,11 @@ Sphinx 是一种文档工具，它可以令人轻松的撰写出清晰且优美�
    HTML Theme <theme>
 
 
+
+.. toctree::
+   :caption: more examples
+   :maxdepth: 3
+   
+   example/title2
+   example/title3
+   example/title4

@@ -19,6 +19,9 @@ See the online:
 :maxdepth: 2
 
 hello
+notebooks
+index-en
+notes
 ```
 
 ```{toctree}
