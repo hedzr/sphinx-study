@@ -170,6 +170,9 @@ source_encoding = 'utf-8-sig'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ["custom.css"]
+html_js_files = [
+    'js/mermaid-8.9.1.js',
+]
 
 html_theme = 'sphinx_book_theme'
 # html_theme = 'sphinx_rtd_theme'
