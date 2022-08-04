@@ -3,7 +3,7 @@
 .content-container:not(:has(+ span.section-number))
 
 **/
-h1 {
+/* h1 {
     counter-reset: subsection;
     text-decoration: underline;
 }
@@ -25,16 +25,16 @@ h3::before {
 
 .content-container:has(span.section-number) {
     font-weight: lighter;
-}
+} */
 
 
 /** No icon for admonitions with no-icon class */
-.admonition > .admonition-title, div.admonition.no-icon > .admonition-title::before {
+/* .admonition > .admonition-title, div.admonition.no-icon > .admonition-title::before {
     content: "";
 }
 .admonition > .admonition-title, div.admonition.no-icon > .admonition-title {
     padding-left: .6rem;
-}
+} */
 
 /* p {
     text-align: justify;
