@@ -2,6 +2,57 @@
 
 本页面描述了如何开始使用MyST解析器，重点介绍如何在Sphinx文档引擎中启用它。
 
+
+$$
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+$$
+
+## 流程图示例
+
+via `sphinxcontrib.mermaid`.
+
+:::{note}
+And here's a note with a colon fence!
+:::
+
+```{admonition} Here's my title
+:class: tip
+
+Here's my admonition content
+```
+```{mermaid}
+graph LR
+  a --> b
+```
+
+And:
+
+```{mermaid}
+
+    sequenceDiagram
+      participant Alice
+      participant Bob
+      Alice->John: Hello John, how are you?
+```
+
+And:
+
+```{eval-rst}
+.. mermaid::
+
+   sequenceDiagram
+      participant Alice
+      participant Bob
+      Alice->John: Hello John, how are you?
+      loop Healthcheck
+         John->John: Fight against hypochondria
+      end
+      Note right of John: Rational thoughts <br/>prevail...
+      John-->Alice: Great!
+      John->Bob: How about you?
+      Bob-->John: Jolly good!
+```
+
 ## 安装MyST解析器
 
 安装 MyST 解析器可以访问两个工具：
