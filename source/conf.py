@@ -106,7 +106,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.imgmath',
+    #  'sphinx.ext.imgmath',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
@@ -152,11 +152,11 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The encoding of source files.
 source_encoding = 'utf-8-sig'
 
+# # imgmath_image_format = 'svg'
 # imgmath_image_format = 'svg'
-imgmath_image_format = 'svg'
-imgmath_latex = 'xelatex'
-imgmath_latex_args = ['--no-pdf']
-imgmath_latex_preamble = '\\usepackage{unicode-math}\\setmathfont{XITS Math}'
+# imgmath_latex = 'xelatex'
+# imgmath_latex_args = ['--no-pdf']
+# imgmath_latex_preamble = '\\usepackage{unicode-math}\\setmathfont{XITS Math}'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -404,20 +404,20 @@ myst_substitutions = {
 #     }
 # }
 
-# rediraffe_redirects = {
-#     "using/intro.md": "sphinx/intro.md",
-#     "sphinx/intro.md": "intro.md",
-#     "using/use_api.md": "api/index.md",
-#     "api/index.md": "api/reference.rst",
-#     "using/syntax.md": "syntax/syntax.md",
-#     "using/syntax-optional.md": "syntax/optional.md",
-#     "using/reference.md": "syntax/reference.md",
-#     "sphinx/reference.md": "configuration.md",
-#     "sphinx/index.md": "faq/index.md",
-#     "sphinx/use.md": "faq/index.md",
-#     "sphinx/faq.md": "faq/index.md",
-#     "explain/index.md": "develop/background.md",
-# }
+rediraffe_redirects = {
+    #     "using/intro.md": "sphinx/intro.md",
+    #     "sphinx/intro.md": "intro.md",
+    #     "using/use_api.md": "api/index.md",
+    #     "api/index.md": "api/reference.rst",
+    #     "using/syntax.md": "syntax/syntax.md",
+    #     "using/syntax-optional.md": "syntax/optional.md",
+    #     "using/reference.md": "syntax/reference.md",
+    #     "sphinx/reference.md": "configuration.md",
+    #     "sphinx/index.md": "faq/index.md",
+    #     "sphinx/use.md": "faq/index.md",
+    #     "sphinx/faq.md": "faq/index.md",
+    #     "explain/index.md": "develop/background.md",
+}
 
 # -- Options for Breathe/Doxygen output -------------------------------------------------
 
