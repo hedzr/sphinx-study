@@ -1,15 +1,13 @@
 # sphinx study
 
-
-[![Documentation Status](https://readthedocs.org/projects/hz-sphinx-study/badge/?version=latest)](https://hz-sphinx-study.readthedocs.io/en/latest/?badge=latest)
-
+[Latest ![Documentation Status](https://readthedocs.org/projects/hz-sphinx-study/badge/?version=latest)](https://hz-sphinx-study.readthedocs.io/en/latest/?badge=latest)
+[Stable ![Documentation Status](https://readthedocs.org/projects/hz-sphinx-study/badge/?version=stable)](https://hz-sphinx-study.readthedocs.io/en/stable/?badge=stable)
 
 a notebook for studying sphinx documenter.
 
 This repo is a expeiremental notebook for studying how to use sphinx to build a online docsite.
 
 [status admin](https://readthedocs.org/projects/hz-sphinx-study/)
-
 
 ## Build
 
