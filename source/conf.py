@@ -1,7 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 #
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
+# For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Path setup --------------------------------------------------------------
@@ -69,9 +68,11 @@ travis_build = os.environ.get("TRAVIS_CI", None) == "True"
 # git_tag = git_tag.decode("ascii")
 
 # -- Project information -----------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'HZNB'
-copyright = '2022, hedzr'
+project = 'sphinx-study'
+projectTitlePiece = u'Sphinx Study'
+copyright = '2023, hedzr'
 author = 'hedzr'
 
 # The short X.Y version
@@ -80,7 +81,7 @@ version = '0.1.1'
 # The full version, including alpha/beta/rc tags
 release = '0.1.1'
 
-brief = u'cmdr-cxx is a POSIX-compliant command-line arguments parser in C++, its part of cmdr series.'
+brief = projectTitlePiece + u' is a POSIX-compliant command-line arguments parser in C++, its part of cmdr series.'
 
 github_url = 'https://github.com/hedzr/sphinx-study'
 github_doc_root = 'https://github.com/hedzr/sphinx-study/tree/master/source/'
@@ -96,6 +97,7 @@ gettext_compact = False  # optional.
 #
 
 # -- General configuration ---------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -159,6 +161,7 @@ source_encoding = 'utf-8-sig'
 # imgmath_latex_preamble = '\\usepackage{unicode-math}\\setmathfont{XITS Math}'
 
 # -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -191,8 +194,7 @@ if html_theme == 'furo':
     }
 elif html_theme == 'sphinx_rtd_theme':
     html_theme_options = {
-        'analytics_id': ga_account[
-            "mediaid"],  # 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
+        'analytics_id': ga_account["mediaid"],  # 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
         'analytics_anonymize_ip': True,
         'logo_only': False,
         'display_version': True,
@@ -548,7 +550,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'cmdr-cxx.tex', u'cmdr-cxx Documentation',
+    (master_doc, project+'.tex', projectTitlePiece+u' Documentation',
      u'hedzr, and contributors', 'manual'),
 ]
 
@@ -576,7 +578,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, 'cmdr-cxx', u'cmdr-cxx Documentation', [author], 1)]
+man_pages = [(master_doc, project, projectTitlePiece+u' Documentation', [author], 1)]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -587,7 +589,7 @@ man_pages = [(master_doc, 'cmdr-cxx', u'cmdr-cxx Documentation', [author], 1)]
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'cmdr-cxx', u'cmdr-cxx Documentation', author, 'cmdr-cxx',
+    (master_doc, project, projectTitlePiece+u' Documentation', author, project,
      'One line description of project.', 'Miscellaneous'),
 ]
 
