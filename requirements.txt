@@ -41,3 +41,5 @@ matplotlib
 numpy
 
 # pipreqs>=0.4.1
+
+sphinx-simplepdf
